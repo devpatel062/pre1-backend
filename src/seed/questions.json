@@ -1,0 +1,4602 @@
+[
+  {
+    "order": 1,
+    "coreArea": "Curiosity",
+    "prompt": "You're introduced to a tool you've never seen before. What do you do first?",
+    "options": [
+      {
+        "text": "I avoid it unless it's required.",
+        "value": 0
+      },
+      {
+        "text": "I follow a guide step-by-step and move on when it works.",
+        "value": 2
+      },
+      {
+        "text": "I explore the basics, ask a few targeted questions, and try a small experiment.",
+        "value": 3
+      },
+      {
+        "text": "I wait for someone to explain it to me before I start.",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "order": 2,
+    "coreArea": "Curiosity",
+    "prompt": "You're reading a tutorial and a concept doesn't click. What's your next move?",
+    "options": [
+      {
+        "text": "I wait for someone to explain it to me before I start.",
+        "value": 1
+      },
+      {
+        "text": "I explore the basics, ask a few targeted questions, and try a small experiment.",
+        "value": 3
+      },
+      {
+        "text": "I follow a guide step-by-step and move on when it works.",
+        "value": 2
+      },
+      {
+        "text": "I avoid it unless it's required.",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "order": 3,
+    "coreArea": "Curiosity",
+    "prompt": "You notice a teammate uses a shortcut. How do you respond?",
+    "options": [
+      {
+        "text": "I follow a guide step-by-step and move on when it works.",
+        "value": 2
+      },
+      {
+        "text": "I explore the basics, ask a few targeted questions, and try a small experiment.",
+        "value": 3
+      },
+      {
+        "text": "I avoid it unless it's required.",
+        "value": 0
+      },
+      {
+        "text": "I wait for someone to explain it to me before I start.",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "order": 4,
+    "coreArea": "Curiosity",
+    "prompt": "You finish an assignment early. What do you do with the extra time?",
+    "options": [
+      {
+        "text": "I wait for someone to explain it to me before I start.",
+        "value": 1
+      },
+      {
+        "text": "I avoid it unless it's required.",
+        "value": 0
+      },
+      {
+        "text": "I follow a guide step-by-step and move on when it works.",
+        "value": 2
+      },
+      {
+        "text": "I explore the basics, ask a few targeted questions, and try a small experiment.",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "order": 5,
+    "coreArea": "Curiosity",
+    "prompt": "A class topic sparks your interest. What's your natural reaction?",
+    "options": [
+      {
+        "text": "I avoid it unless it's required.",
+        "value": 0
+      },
+      {
+        "text": "I explore the basics, ask a few targeted questions, and try a small experiment.",
+        "value": 3
+      },
+      {
+        "text": "I follow a guide step-by-step and move on when it works.",
+        "value": 2
+      },
+      {
+        "text": "I wait for someone to explain it to me before I start.",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "order": 6,
+    "coreArea": "Curiosity",
+    "prompt": "You're given a vague problem statement. What do you do?",
+    "options": [
+      {
+        "text": "I wait for someone to explain it to me before I start.",
+        "value": 1
+      },
+      {
+        "text": "I avoid it unless it's required.",
+        "value": 0
+      },
+      {
+        "text": "I follow a guide step-by-step and move on when it works.",
+        "value": 2
+      },
+      {
+        "text": "I explore the basics, ask a few targeted questions, and try a small experiment.",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "order": 7,
+    "coreArea": "Curiosity",
+    "prompt": "You see a new feature in a product you use daily. What do you do?",
+    "options": [
+      {
+        "text": "I avoid it unless it's required.",
+        "value": 0
+      },
+      {
+        "text": "I follow a guide step-by-step and move on when it works.",
+        "value": 2
+      },
+      {
+        "text": "I wait for someone to explain it to me before I start.",
+        "value": 1
+      },
+      {
+        "text": "I explore the basics, ask a few targeted questions, and try a small experiment.",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "order": 8,
+    "coreArea": "Curiosity",
+    "prompt": "You're stuck between two approaches. What do you do next?",
+    "options": [
+      {
+        "text": "I avoid it unless it's required.",
+        "value": 0
+      },
+      {
+        "text": "I explore the basics, ask a few targeted questions, and try a small experiment.",
+        "value": 3
+      },
+      {
+        "text": "I wait for someone to explain it to me before I start.",
+        "value": 1
+      },
+      {
+        "text": "I follow a guide step-by-step and move on when it works.",
+        "value": 2
+      }
+    ]
+  },
+  {
+    "order": 9,
+    "coreArea": "Curiosity",
+    "prompt": "A mentor mentions an unfamiliar term in passing. What do you do?",
+    "options": [
+      {
+        "text": "I wait for someone to explain it to me before I start.",
+        "value": 1
+      },
+      {
+        "text": "I avoid it unless it's required.",
+        "value": 0
+      },
+      {
+        "text": "I explore the basics, ask a few targeted questions, and try a small experiment.",
+        "value": 3
+      },
+      {
+        "text": "I follow a guide step-by-step and move on when it works.",
+        "value": 2
+      }
+    ]
+  },
+  {
+    "order": 10,
+    "coreArea": "Curiosity",
+    "prompt": "You join a new cohort with a different learning platform. What do you do?",
+    "options": [
+      {
+        "text": "I follow a guide step-by-step and move on when it works.",
+        "value": 2
+      },
+      {
+        "text": "I explore the basics, ask a few targeted questions, and try a small experiment.",
+        "value": 3
+      },
+      {
+        "text": "I wait for someone to explain it to me before I start.",
+        "value": 1
+      },
+      {
+        "text": "I avoid it unless it's required.",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "order": 11,
+    "coreArea": "Curiosity",
+    "prompt": "You hear about an industry role you don't recognize. What do you do?",
+    "options": [
+      {
+        "text": "I avoid it unless it's required.",
+        "value": 0
+      },
+      {
+        "text": "I follow a guide step-by-step and move on when it works.",
+        "value": 2
+      },
+      {
+        "text": "I explore the basics, ask a few targeted questions, and try a small experiment.",
+        "value": 3
+      },
+      {
+        "text": "I wait for someone to explain it to me before I start.",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "order": 12,
+    "coreArea": "Curiosity",
+    "prompt": "A project asks you to use an API you've never used. How do you start?",
+    "options": [
+      {
+        "text": "I follow a guide step-by-step and move on when it works.",
+        "value": 2
+      },
+      {
+        "text": "I avoid it unless it's required.",
+        "value": 0
+      },
+      {
+        "text": "I wait for someone to explain it to me before I start.",
+        "value": 1
+      },
+      {
+        "text": "I explore the basics, ask a few targeted questions, and try a small experiment.",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "order": 13,
+    "coreArea": "Curiosity",
+    "prompt": "You receive a dataset with unknown columns. What do you do first?",
+    "options": [
+      {
+        "text": "I wait for someone to explain it to me before I start.",
+        "value": 1
+      },
+      {
+        "text": "I explore the basics, ask a few targeted questions, and try a small experiment.",
+        "value": 3
+      },
+      {
+        "text": "I avoid it unless it's required.",
+        "value": 0
+      },
+      {
+        "text": "I follow a guide step-by-step and move on when it works.",
+        "value": 2
+      }
+    ]
+  },
+  {
+    "order": 14,
+    "coreArea": "Curiosity",
+    "prompt": "You watch a demo and wonder 'how did they do that?'. What do you do?",
+    "options": [
+      {
+        "text": "I explore the basics, ask a few targeted questions, and try a small experiment.",
+        "value": 3
+      },
+      {
+        "text": "I wait for someone to explain it to me before I start.",
+        "value": 1
+      },
+      {
+        "text": "I avoid it unless it's required.",
+        "value": 0
+      },
+      {
+        "text": "I follow a guide step-by-step and move on when it works.",
+        "value": 2
+      }
+    ]
+  },
+  {
+    "order": 15,
+    "coreArea": "Curiosity",
+    "prompt": "You're assigned to research a small topic for the group. How do you approach it?",
+    "options": [
+      {
+        "text": "I follow a guide step-by-step and move on when it works.",
+        "value": 2
+      },
+      {
+        "text": "I explore the basics, ask a few targeted questions, and try a small experiment.",
+        "value": 3
+      },
+      {
+        "text": "I wait for someone to explain it to me before I start.",
+        "value": 1
+      },
+      {
+        "text": "I avoid it unless it's required.",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "order": 16,
+    "coreArea": "Curiosity",
+    "prompt": "You notice a pattern in your mistakes. What do you do?",
+    "options": [
+      {
+        "text": "I avoid it unless it's required.",
+        "value": 0
+      },
+      {
+        "text": "I follow a guide step-by-step and move on when it works.",
+        "value": 2
+      },
+      {
+        "text": "I explore the basics, ask a few targeted questions, and try a small experiment.",
+        "value": 3
+      },
+      {
+        "text": "I wait for someone to explain it to me before I start.",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "order": 17,
+    "coreArea": "Curiosity",
+    "prompt": "You find conflicting answers online. What do you do?",
+    "options": [
+      {
+        "text": "I avoid it unless it's required.",
+        "value": 0
+      },
+      {
+        "text": "I wait for someone to explain it to me before I start.",
+        "value": 1
+      },
+      {
+        "text": "I explore the basics, ask a few targeted questions, and try a small experiment.",
+        "value": 3
+      },
+      {
+        "text": "I follow a guide step-by-step and move on when it works.",
+        "value": 2
+      }
+    ]
+  },
+  {
+    "order": 18,
+    "coreArea": "Curiosity",
+    "prompt": "A lesson ends, but you still have questions. What do you do?",
+    "options": [
+      {
+        "text": "I explore the basics, ask a few targeted questions, and try a small experiment.",
+        "value": 3
+      },
+      {
+        "text": "I wait for someone to explain it to me before I start.",
+        "value": 1
+      },
+      {
+        "text": "I avoid it unless it's required.",
+        "value": 0
+      },
+      {
+        "text": "I follow a guide step-by-step and move on when it works.",
+        "value": 2
+      }
+    ]
+  },
+  {
+    "order": 19,
+    "coreArea": "Curiosity",
+    "prompt": "You're exploring a codebase and find a confusing function. What do you do?",
+    "options": [
+      {
+        "text": "I avoid it unless it's required.",
+        "value": 0
+      },
+      {
+        "text": "I follow a guide step-by-step and move on when it works.",
+        "value": 2
+      },
+      {
+        "text": "I wait for someone to explain it to me before I start.",
+        "value": 1
+      },
+      {
+        "text": "I explore the basics, ask a few targeted questions, and try a small experiment.",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "coreArea": "Curiosity",
+    "prompt": "You meet someone in tech and they mention their workflow. What do you do?",
+    "options": [
+      {
+        "text": "I avoid it unless it's required.",
+        "value": 0
+      },
+      {
+        "text": "I follow a guide step-by-step and move on when it works.",
+        "value": 2
+      },
+      {
+        "text": "I wait for someone to explain it to me before I start.",
+        "value": 1
+      },
+      {
+        "text": "I explore the basics, ask a few targeted questions, and try a small experiment.",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "order": 21,
+    "coreArea": "Curiosity",
+    "prompt": "You're asked to choose a career track. How do you decide?",
+    "options": [
+      {
+        "text": "I wait for someone to explain it to me before I start.",
+        "value": 1
+      },
+      {
+        "text": "I avoid it unless it's required.",
+        "value": 0
+      },
+      {
+        "text": "I follow a guide step-by-step and move on when it works.",
+        "value": 2
+      },
+      {
+        "text": "I explore the basics, ask a few targeted questions, and try a small experiment.",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "order": 22,
+    "coreArea": "Curiosity",
+    "prompt": "You find a library that solves your problem. What do you do before using it?",
+    "options": [
+      {
+        "text": "I explore the basics, ask a few targeted questions, and try a small experiment.",
+        "value": 3
+      },
+      {
+        "text": "I follow a guide step-by-step and move on when it works.",
+        "value": 2
+      },
+      {
+        "text": "I wait for someone to explain it to me before I start.",
+        "value": 1
+      },
+      {
+        "text": "I avoid it unless it's required.",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "order": 23,
+    "coreArea": "Curiosity",
+    "prompt": "You've never used a command-line tool before. What do you do?",
+    "options": [
+      {
+        "text": "I wait for someone to explain it to me before I start.",
+        "value": 1
+      },
+      {
+        "text": "I follow a guide step-by-step and move on when it works.",
+        "value": 2
+      },
+      {
+        "text": "I avoid it unless it's required.",
+        "value": 0
+      },
+      {
+        "text": "I explore the basics, ask a few targeted questions, and try a small experiment.",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "order": 24,
+    "coreArea": "Curiosity",
+    "prompt": "You see a bug, but it's not required to fix for the assignment. What do you do?",
+    "options": [
+      {
+        "text": "I wait for someone to explain it to me before I start.",
+        "value": 1
+      },
+      {
+        "text": "I avoid it unless it's required.",
+        "value": 0
+      },
+      {
+        "text": "I follow a guide step-by-step and move on when it works.",
+        "value": 2
+      },
+      {
+        "text": "I explore the basics, ask a few targeted questions, and try a small experiment.",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "order": 25,
+    "coreArea": "Curiosity",
+    "prompt": "You get an error message you've never seen. What do you do?",
+    "options": [
+      {
+        "text": "I explore the basics, ask a few targeted questions, and try a small experiment.",
+        "value": 3
+      },
+      {
+        "text": "I follow a guide step-by-step and move on when it works.",
+        "value": 2
+      },
+      {
+        "text": "I avoid it unless it's required.",
+        "value": 0
+      },
+      {
+        "text": "I wait for someone to explain it to me before I start.",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "order": 26,
+    "coreArea": "Curiosity",
+    "prompt": "You're learning a new concept and want to remember it. What do you do?",
+    "options": [
+      {
+        "text": "I explore the basics, ask a few targeted questions, and try a small experiment.",
+        "value": 3
+      },
+      {
+        "text": "I avoid it unless it's required.",
+        "value": 0
+      },
+      {
+        "text": "I follow a guide step-by-step and move on when it works.",
+        "value": 2
+      },
+      {
+        "text": "I wait for someone to explain it to me before I start.",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "order": 27,
+    "coreArea": "Curiosity",
+    "prompt": "You're in a group project and a teammate suggests a new idea. What do you do?",
+    "options": [
+      {
+        "text": "I wait for someone to explain it to me before I start.",
+        "value": 1
+      },
+      {
+        "text": "I follow a guide step-by-step and move on when it works.",
+        "value": 2
+      },
+      {
+        "text": "I avoid it unless it's required.",
+        "value": 0
+      },
+      {
+        "text": "I explore the basics, ask a few targeted questions, and try a small experiment.",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "order": 28,
+    "coreArea": "Curiosity",
+    "prompt": "You're unsure why a solution works. What do you do?",
+    "options": [
+      {
+        "text": "I explore the basics, ask a few targeted questions, and try a small experiment.",
+        "value": 3
+      },
+      {
+        "text": "I follow a guide step-by-step and move on when it works.",
+        "value": 2
+      },
+      {
+        "text": "I wait for someone to explain it to me before I start.",
+        "value": 1
+      },
+      {
+        "text": "I avoid it unless it's required.",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "order": 29,
+    "coreArea": "Curiosity",
+    "prompt": "You see a tutorial that's popular but long. What do you do?",
+    "options": [
+      {
+        "text": "I explore the basics, ask a few targeted questions, and try a small experiment.",
+        "value": 3
+      },
+      {
+        "text": "I avoid it unless it's required.",
+        "value": 0
+      },
+      {
+        "text": "I wait for someone to explain it to me before I start.",
+        "value": 1
+      },
+      {
+        "text": "I follow a guide step-by-step and move on when it works.",
+        "value": 2
+      }
+    ]
+  },
+  {
+    "order": 30,
+    "coreArea": "Curiosity",
+    "prompt": "You're told 'just follow the steps.' What do you do?",
+    "options": [
+      {
+        "text": "I explore the basics, ask a few targeted questions, and try a small experiment.",
+        "value": 3
+      },
+      {
+        "text": "I wait for someone to explain it to me before I start.",
+        "value": 1
+      },
+      {
+        "text": "I avoid it unless it's required.",
+        "value": 0
+      },
+      {
+        "text": "I follow a guide step-by-step and move on when it works.",
+        "value": 2
+      }
+    ]
+  },
+  {
+    "order": 31,
+    "coreArea": "Curiosity",
+    "prompt": "You're given a chance to attend an optional workshop. What do you do?",
+    "options": [
+      {
+        "text": "I follow a guide step-by-step and move on when it works.",
+        "value": 2
+      },
+      {
+        "text": "I explore the basics, ask a few targeted questions, and try a small experiment.",
+        "value": 3
+      },
+      {
+        "text": "I avoid it unless it's required.",
+        "value": 0
+      },
+      {
+        "text": "I wait for someone to explain it to me before I start.",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "order": 32,
+    "coreArea": "Curiosity",
+    "prompt": "You find a metric that contradicts the narrative. What do you do?",
+    "options": [
+      {
+        "text": "I wait for someone to explain it to me before I start.",
+        "value": 1
+      },
+      {
+        "text": "I explore the basics, ask a few targeted questions, and try a small experiment.",
+        "value": 3
+      },
+      {
+        "text": "I avoid it unless it's required.",
+        "value": 0
+      },
+      {
+        "text": "I follow a guide step-by-step and move on when it works.",
+        "value": 2
+      }
+    ]
+  },
+  {
+    "order": 33,
+    "coreArea": "Curiosity",
+    "prompt": "You notice a feature request from users. What do you do?",
+    "options": [
+      {
+        "text": "I wait for someone to explain it to me before I start.",
+        "value": 1
+      },
+      {
+        "text": "I avoid it unless it's required.",
+        "value": 0
+      },
+      {
+        "text": "I follow a guide step-by-step and move on when it works.",
+        "value": 2
+      },
+      {
+        "text": "I explore the basics, ask a few targeted questions, and try a small experiment.",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "order": 34,
+    "coreArea": "Curiosity",
+    "prompt": "You're studying and you hit a 'why' moment. What do you do?",
+    "options": [
+      {
+        "text": "I wait for someone to explain it to me before I start.",
+        "value": 1
+      },
+      {
+        "text": "I explore the basics, ask a few targeted questions, and try a small experiment.",
+        "value": 3
+      },
+      {
+        "text": "I follow a guide step-by-step and move on when it works.",
+        "value": 2
+      },
+      {
+        "text": "I avoid it unless it's required.",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "order": 35,
+    "coreArea": "Curiosity",
+    "prompt": "You see someone's portfolio project and it inspires you. What do you do?",
+    "options": [
+      {
+        "text": "I wait for someone to explain it to me before I start.",
+        "value": 1
+      },
+      {
+        "text": "I explore the basics, ask a few targeted questions, and try a small experiment.",
+        "value": 3
+      },
+      {
+        "text": "I follow a guide step-by-step and move on when it works.",
+        "value": 2
+      },
+      {
+        "text": "I avoid it unless it's required.",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "order": 36,
+    "coreArea": "Curiosity",
+    "prompt": "You're asked to explain your work. What do you do to prepare?",
+    "options": [
+      {
+        "text": "I explore the basics, ask a few targeted questions, and try a small experiment.",
+        "value": 3
+      },
+      {
+        "text": "I follow a guide step-by-step and move on when it works.",
+        "value": 2
+      },
+      {
+        "text": "I avoid it unless it's required.",
+        "value": 0
+      },
+      {
+        "text": "I wait for someone to explain it to me before I start.",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "order": 37,
+    "coreArea": "Curiosity",
+    "prompt": "You discover a new shortcut in your editor. What do you do?",
+    "options": [
+      {
+        "text": "I avoid it unless it's required.",
+        "value": 0
+      },
+      {
+        "text": "I follow a guide step-by-step and move on when it works.",
+        "value": 2
+      },
+      {
+        "text": "I explore the basics, ask a few targeted questions, and try a small experiment.",
+        "value": 3
+      },
+      {
+        "text": "I wait for someone to explain it to me before I start.",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "order": 38,
+    "coreArea": "Curiosity",
+    "prompt": "You have to pick between two tutorials. What do you look for?",
+    "options": [
+      {
+        "text": "I follow a guide step-by-step and move on when it works.",
+        "value": 2
+      },
+      {
+        "text": "I explore the basics, ask a few targeted questions, and try a small experiment.",
+        "value": 3
+      },
+      {
+        "text": "I avoid it unless it's required.",
+        "value": 0
+      },
+      {
+        "text": "I wait for someone to explain it to me before I start.",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "order": 39,
+    "coreArea": "Curiosity",
+    "prompt": "You're learning from a mistake. What do you do next?",
+    "options": [
+      {
+        "text": "I follow a guide step-by-step and move on when it works.",
+        "value": 2
+      },
+      {
+        "text": "I wait for someone to explain it to me before I start.",
+        "value": 1
+      },
+      {
+        "text": "I explore the basics, ask a few targeted questions, and try a small experiment.",
+        "value": 3
+      },
+      {
+        "text": "I avoid it unless it's required.",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "order": 40,
+    "coreArea": "Curiosity",
+    "prompt": "You're curious about how a website is built. What do you do?",
+    "options": [
+      {
+        "text": "I wait for someone to explain it to me before I start.",
+        "value": 1
+      },
+      {
+        "text": "I avoid it unless it's required.",
+        "value": 0
+      },
+      {
+        "text": "I explore the basics, ask a few targeted questions, and try a small experiment.",
+        "value": 3
+      },
+      {
+        "text": "I follow a guide step-by-step and move on when it works.",
+        "value": 2
+      }
+    ]
+  },
+  {
+    "order": 41,
+    "coreArea": "Grit + Resilience",
+    "prompt": "You've been stuck on a bug for an hour. What do you do next?",
+    "options": [
+      {
+        "text": "I pause the task and come back only if I have to.",
+        "value": 1
+      },
+      {
+        "text": "I break the problem down, try another approach, and keep going until I make progress.",
+        "value": 3
+      },
+      {
+        "text": "I quit and assume I'm not good at it.",
+        "value": 0
+      },
+      {
+        "text": "I take a short break, then retry with a checklist.",
+        "value": 2
+      }
+    ]
+  },
+  {
+    "order": 42,
+    "coreArea": "Grit + Resilience",
+    "prompt": "You fail a quiz or checkpoint. How do you respond?",
+    "options": [
+      {
+        "text": "I take a short break, then retry with a checklist.",
+        "value": 2
+      },
+      {
+        "text": "I pause the task and come back only if I have to.",
+        "value": 1
+      },
+      {
+        "text": "I quit and assume I'm not good at it.",
+        "value": 0
+      },
+      {
+        "text": "I break the problem down, try another approach, and keep going until I make progress.",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "order": 43,
+    "coreArea": "Grit + Resilience",
+    "prompt": "Your code works locally but breaks in deployment. What do you do?",
+    "options": [
+      {
+        "text": "I break the problem down, try another approach, and keep going until I make progress.",
+        "value": 3
+      },
+      {
+        "text": "I take a short break, then retry with a checklist.",
+        "value": 2
+      },
+      {
+        "text": "I pause the task and come back only if I have to.",
+        "value": 1
+      },
+      {
+        "text": "I quit and assume I'm not good at it.",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "order": 44,
+    "coreArea": "Grit + Resilience",
+    "prompt": "You feel overwhelmed by the workload this week. What's your move?",
+    "options": [
+      {
+        "text": "I pause the task and come back only if I have to.",
+        "value": 1
+      },
+      {
+        "text": "I quit and assume I'm not good at it.",
+        "value": 0
+      },
+      {
+        "text": "I take a short break, then retry with a checklist.",
+        "value": 2
+      },
+      {
+        "text": "I break the problem down, try another approach, and keep going until I make progress.",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "order": 45,
+    "coreArea": "Grit + Resilience",
+    "prompt": "A teammate drops out of a group task unexpectedly. What do you do?",
+    "options": [
+      {
+        "text": "I quit and assume I'm not good at it.",
+        "value": 0
+      },
+      {
+        "text": "I break the problem down, try another approach, and keep going until I make progress.",
+        "value": 3
+      },
+      {
+        "text": "I take a short break, then retry with a checklist.",
+        "value": 2
+      },
+      {
+        "text": "I pause the task and come back only if I have to.",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "order": 46,
+    "coreArea": "Grit + Resilience",
+    "prompt": "You receive critical feedback on your project. What do you do first?",
+    "options": [
+      {
+        "text": "I take a short break, then retry with a checklist.",
+        "value": 2
+      },
+      {
+        "text": "I quit and assume I'm not good at it.",
+        "value": 0
+      },
+      {
+        "text": "I break the problem down, try another approach, and keep going until I make progress.",
+        "value": 3
+      },
+      {
+        "text": "I pause the task and come back only if I have to.",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "order": 47,
+    "coreArea": "Grit + Resilience",
+    "prompt": "You've tried three solutions and none worked. What do you do?",
+    "options": [
+      {
+        "text": "I pause the task and come back only if I have to.",
+        "value": 1
+      },
+      {
+        "text": "I take a short break, then retry with a checklist.",
+        "value": 2
+      },
+      {
+        "text": "I break the problem down, try another approach, and keep going until I make progress.",
+        "value": 3
+      },
+      {
+        "text": "I quit and assume I'm not good at it.",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "order": 48,
+    "coreArea": "Grit + Resilience",
+    "prompt": "You're learning a topic that feels 'too hard' at first. What do you do?",
+    "options": [
+      {
+        "text": "I take a short break, then retry with a checklist.",
+        "value": 2
+      },
+      {
+        "text": "I break the problem down, try another approach, and keep going until I make progress.",
+        "value": 3
+      },
+      {
+        "text": "I pause the task and come back only if I have to.",
+        "value": 1
+      },
+      {
+        "text": "I quit and assume I'm not good at it.",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "order": 49,
+    "coreArea": "Grit + Resilience",
+    "prompt": "You miss a deadline due to life circumstances. What do you do next?",
+    "options": [
+      {
+        "text": "I take a short break, then retry with a checklist.",
+        "value": 2
+      },
+      {
+        "text": "I break the problem down, try another approach, and keep going until I make progress.",
+        "value": 3
+      },
+      {
+        "text": "I pause the task and come back only if I have to.",
+        "value": 1
+      },
+      {
+        "text": "I quit and assume I'm not good at it.",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "order": 50,
+    "coreArea": "Grit + Resilience",
+    "prompt": "Your internet goes down right before class. What do you do?",
+    "options": [
+      {
+        "text": "I quit and assume I'm not good at it.",
+        "value": 0
+      },
+      {
+        "text": "I pause the task and come back only if I have to.",
+        "value": 1
+      },
+      {
+        "text": "I take a short break, then retry with a checklist.",
+        "value": 2
+      },
+      {
+        "text": "I break the problem down, try another approach, and keep going until I make progress.",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "order": 51,
+    "coreArea": "Grit + Resilience",
+    "prompt": "You submit an assignment and get a low score. What do you do?",
+    "options": [
+      {
+        "text": "I take a short break, then retry with a checklist.",
+        "value": 2
+      },
+      {
+        "text": "I quit and assume I'm not good at it.",
+        "value": 0
+      },
+      {
+        "text": "I pause the task and come back only if I have to.",
+        "value": 1
+      },
+      {
+        "text": "I break the problem down, try another approach, and keep going until I make progress.",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "order": 52,
+    "coreArea": "Grit + Resilience",
+    "prompt": "You keep making the same kind of mistake. What do you do?",
+    "options": [
+      {
+        "text": "I take a short break, then retry with a checklist.",
+        "value": 2
+      },
+      {
+        "text": "I pause the task and come back only if I have to.",
+        "value": 1
+      },
+      {
+        "text": "I quit and assume I'm not good at it.",
+        "value": 0
+      },
+      {
+        "text": "I break the problem down, try another approach, and keep going until I make progress.",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "order": 53,
+    "coreArea": "Grit + Resilience",
+    "prompt": "You're tired after work but you planned to study. What do you do?",
+    "options": [
+      {
+        "text": "I take a short break, then retry with a checklist.",
+        "value": 2
+      },
+      {
+        "text": "I quit and assume I'm not good at it.",
+        "value": 0
+      },
+      {
+        "text": "I break the problem down, try another approach, and keep going until I make progress.",
+        "value": 3
+      },
+      {
+        "text": "I pause the task and come back only if I have to.",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "order": 54,
+    "coreArea": "Grit + Resilience",
+    "prompt": "A project requirement changes mid-week. What do you do?",
+    "options": [
+      {
+        "text": "I quit and assume I'm not good at it.",
+        "value": 0
+      },
+      {
+        "text": "I take a short break, then retry with a checklist.",
+        "value": 2
+      },
+      {
+        "text": "I break the problem down, try another approach, and keep going until I make progress.",
+        "value": 3
+      },
+      {
+        "text": "I pause the task and come back only if I have to.",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "order": 55,
+    "coreArea": "Grit + Resilience",
+    "prompt": "You have a long reading assignment and it's boring. What do you do?",
+    "options": [
+      {
+        "text": "I pause the task and come back only if I have to.",
+        "value": 1
+      },
+      {
+        "text": "I quit and assume I'm not good at it.",
+        "value": 0
+      },
+      {
+        "text": "I break the problem down, try another approach, and keep going until I make progress.",
+        "value": 3
+      },
+      {
+        "text": "I take a short break, then retry with a checklist.",
+        "value": 2
+      }
+    ]
+  },
+  {
+    "order": 56,
+    "coreArea": "Grit + Resilience",
+    "prompt": "Your first idea for a project fails. What do you do?",
+    "options": [
+      {
+        "text": "I break the problem down, try another approach, and keep going until I make progress.",
+        "value": 3
+      },
+      {
+        "text": "I take a short break, then retry with a checklist.",
+        "value": 2
+      },
+      {
+        "text": "I quit and assume I'm not good at it.",
+        "value": 0
+      },
+      {
+        "text": "I pause the task and come back only if I have to.",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "order": 57,
+    "coreArea": "Grit + Resilience",
+    "prompt": "You're nervous to present your MVP. What do you do?",
+    "options": [
+      {
+        "text": "I pause the task and come back only if I have to.",
+        "value": 1
+      },
+      {
+        "text": "I break the problem down, try another approach, and keep going until I make progress.",
+        "value": 3
+      },
+      {
+        "text": "I take a short break, then retry with a checklist.",
+        "value": 2
+      },
+      {
+        "text": "I quit and assume I'm not good at it.",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "order": 58,
+    "coreArea": "Grit + Resilience",
+    "prompt": "You're learning in public and feel embarrassed by mistakes. What do you do?",
+    "options": [
+      {
+        "text": "I pause the task and come back only if I have to.",
+        "value": 1
+      },
+      {
+        "text": "I take a short break, then retry with a checklist.",
+        "value": 2
+      },
+      {
+        "text": "I quit and assume I'm not good at it.",
+        "value": 0
+      },
+      {
+        "text": "I break the problem down, try another approach, and keep going until I make progress.",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "order": 59,
+    "coreArea": "Grit + Resilience",
+    "prompt": "You get rejected from an internship. What do you do?",
+    "options": [
+      {
+        "text": "I take a short break, then retry with a checklist.",
+        "value": 2
+      },
+      {
+        "text": "I quit and assume I'm not good at it.",
+        "value": 0
+      },
+      {
+        "text": "I pause the task and come back only if I have to.",
+        "value": 1
+      },
+      {
+        "text": "I break the problem down, try another approach, and keep going until I make progress.",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "order": 60,
+    "coreArea": "Grit + Resilience",
+    "prompt": "You encounter a confusing API and the docs aren't great. What do you do?",
+    "options": [
+      {
+        "text": "I break the problem down, try another approach, and keep going until I make progress.",
+        "value": 3
+      },
+      {
+        "text": "I quit and assume I'm not good at it.",
+        "value": 0
+      },
+      {
+        "text": "I take a short break, then retry with a checklist.",
+        "value": 2
+      },
+      {
+        "text": "I pause the task and come back only if I have to.",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "order": 61,
+    "coreArea": "Grit + Resilience",
+    "prompt": "You lose progress due to not saving. What do you do next time?",
+    "options": [
+      {
+        "text": "I pause the task and come back only if I have to.",
+        "value": 1
+      },
+      {
+        "text": "I quit and assume I'm not good at it.",
+        "value": 0
+      },
+      {
+        "text": "I break the problem down, try another approach, and keep going until I make progress.",
+        "value": 3
+      },
+      {
+        "text": "I take a short break, then retry with a checklist.",
+        "value": 2
+      }
+    ]
+  },
+  {
+    "order": 62,
+    "coreArea": "Grit + Resilience",
+    "prompt": "You get stuck but a mentor isn't available immediately. What do you do?",
+    "options": [
+      {
+        "text": "I quit and assume I'm not good at it.",
+        "value": 0
+      },
+      {
+        "text": "I break the problem down, try another approach, and keep going until I make progress.",
+        "value": 3
+      },
+      {
+        "text": "I pause the task and come back only if I have to.",
+        "value": 1
+      },
+      {
+        "text": "I take a short break, then retry with a checklist.",
+        "value": 2
+      }
+    ]
+  },
+  {
+    "order": 63,
+    "coreArea": "Grit + Resilience",
+    "prompt": "You're behind in the course by two lessons. What do you do?",
+    "options": [
+      {
+        "text": "I quit and assume I'm not good at it.",
+        "value": 0
+      },
+      {
+        "text": "I break the problem down, try another approach, and keep going until I make progress.",
+        "value": 3
+      },
+      {
+        "text": "I take a short break, then retry with a checklist.",
+        "value": 2
+      },
+      {
+        "text": "I pause the task and come back only if I have to.",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "order": 64,
+    "coreArea": "Grit + Resilience",
+    "prompt": "You can't solve a problem alone. What do you do?",
+    "options": [
+      {
+        "text": "I pause the task and come back only if I have to.",
+        "value": 1
+      },
+      {
+        "text": "I quit and assume I'm not good at it.",
+        "value": 0
+      },
+      {
+        "text": "I break the problem down, try another approach, and keep going until I make progress.",
+        "value": 3
+      },
+      {
+        "text": "I take a short break, then retry with a checklist.",
+        "value": 2
+      }
+    ]
+  },
+  {
+    "order": 65,
+    "coreArea": "Grit + Resilience",
+    "prompt": "Your group disagrees on the direction. What do you do?",
+    "options": [
+      {
+        "text": "I quit and assume I'm not good at it.",
+        "value": 0
+      },
+      {
+        "text": "I take a short break, then retry with a checklist.",
+        "value": 2
+      },
+      {
+        "text": "I break the problem down, try another approach, and keep going until I make progress.",
+        "value": 3
+      },
+      {
+        "text": "I pause the task and come back only if I have to.",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "order": 66,
+    "coreArea": "Grit + Resilience",
+    "prompt": "You have to redo work after a review. What do you do?",
+    "options": [
+      {
+        "text": "I quit and assume I'm not good at it.",
+        "value": 0
+      },
+      {
+        "text": "I take a short break, then retry with a checklist.",
+        "value": 2
+      },
+      {
+        "text": "I pause the task and come back only if I have to.",
+        "value": 1
+      },
+      {
+        "text": "I break the problem down, try another approach, and keep going until I make progress.",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "order": 67,
+    "coreArea": "Grit + Resilience",
+    "prompt": "You feel like others are ahead of you. What do you do?",
+    "options": [
+      {
+        "text": "I take a short break, then retry with a checklist.",
+        "value": 2
+      },
+      {
+        "text": "I break the problem down, try another approach, and keep going until I make progress.",
+        "value": 3
+      },
+      {
+        "text": "I quit and assume I'm not good at it.",
+        "value": 0
+      },
+      {
+        "text": "I pause the task and come back only if I have to.",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "order": 68,
+    "coreArea": "Grit + Resilience",
+    "prompt": "You're asked to refactor messy code. What do you do?",
+    "options": [
+      {
+        "text": "I quit and assume I'm not good at it.",
+        "value": 0
+      },
+      {
+        "text": "I take a short break, then retry with a checklist.",
+        "value": 2
+      },
+      {
+        "text": "I pause the task and come back only if I have to.",
+        "value": 1
+      },
+      {
+        "text": "I break the problem down, try another approach, and keep going until I make progress.",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "order": 69,
+    "coreArea": "Grit + Resilience",
+    "prompt": "You hit repeated errors during setup. What do you do?",
+    "options": [
+      {
+        "text": "I pause the task and come back only if I have to.",
+        "value": 1
+      },
+      {
+        "text": "I take a short break, then retry with a checklist.",
+        "value": 2
+      },
+      {
+        "text": "I break the problem down, try another approach, and keep going until I make progress.",
+        "value": 3
+      },
+      {
+        "text": "I quit and assume I'm not good at it.",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "order": 70,
+    "coreArea": "Grit + Resilience",
+    "prompt": "You're balancing family responsibilities with class. What do you do?",
+    "options": [
+      {
+        "text": "I take a short break, then retry with a checklist.",
+        "value": 2
+      },
+      {
+        "text": "I quit and assume I'm not good at it.",
+        "value": 0
+      },
+      {
+        "text": "I pause the task and come back only if I have to.",
+        "value": 1
+      },
+      {
+        "text": "I break the problem down, try another approach, and keep going until I make progress.",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "order": 71,
+    "coreArea": "Grit + Resilience",
+    "prompt": "You get a harsh comment online about your project. What do you do?",
+    "options": [
+      {
+        "text": "I break the problem down, try another approach, and keep going until I make progress.",
+        "value": 3
+      },
+      {
+        "text": "I pause the task and come back only if I have to.",
+        "value": 1
+      },
+      {
+        "text": "I take a short break, then retry with a checklist.",
+        "value": 2
+      },
+      {
+        "text": "I quit and assume I'm not good at it.",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "order": 72,
+    "coreArea": "Grit + Resilience",
+    "prompt": "Your MVP demo fails during rehearsal. What do you do?",
+    "options": [
+      {
+        "text": "I take a short break, then retry with a checklist.",
+        "value": 2
+      },
+      {
+        "text": "I break the problem down, try another approach, and keep going until I make progress.",
+        "value": 3
+      },
+      {
+        "text": "I quit and assume I'm not good at it.",
+        "value": 0
+      },
+      {
+        "text": "I pause the task and come back only if I have to.",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "order": 73,
+    "coreArea": "Grit + Resilience",
+    "prompt": "You need 20 hours/week but only have 10 this week. What do you do?",
+    "options": [
+      {
+        "text": "I pause the task and come back only if I have to.",
+        "value": 1
+      },
+      {
+        "text": "I quit and assume I'm not good at it.",
+        "value": 0
+      },
+      {
+        "text": "I take a short break, then retry with a checklist.",
+        "value": 2
+      },
+      {
+        "text": "I break the problem down, try another approach, and keep going until I make progress.",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "order": 74,
+    "coreArea": "Grit + Resilience",
+    "prompt": "You feel discouraged after comparing yourself to others. What do you do?",
+    "options": [
+      {
+        "text": "I take a short break, then retry with a checklist.",
+        "value": 2
+      },
+      {
+        "text": "I pause the task and come back only if I have to.",
+        "value": 1
+      },
+      {
+        "text": "I break the problem down, try another approach, and keep going until I make progress.",
+        "value": 3
+      },
+      {
+        "text": "I quit and assume I'm not good at it.",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "order": 75,
+    "coreArea": "Grit + Resilience",
+    "prompt": "You're assigned a long task with many steps. What do you do?",
+    "options": [
+      {
+        "text": "I pause the task and come back only if I have to.",
+        "value": 1
+      },
+      {
+        "text": "I quit and assume I'm not good at it.",
+        "value": 0
+      },
+      {
+        "text": "I break the problem down, try another approach, and keep going until I make progress.",
+        "value": 3
+      },
+      {
+        "text": "I take a short break, then retry with a checklist.",
+        "value": 2
+      }
+    ]
+  },
+  {
+    "order": 76,
+    "coreArea": "Grit + Resilience",
+    "prompt": "Your app has a bug right before demo day. What do you do?",
+    "options": [
+      {
+        "text": "I quit and assume I'm not good at it.",
+        "value": 0
+      },
+      {
+        "text": "I pause the task and come back only if I have to.",
+        "value": 1
+      },
+      {
+        "text": "I break the problem down, try another approach, and keep going until I make progress.",
+        "value": 3
+      },
+      {
+        "text": "I take a short break, then retry with a checklist.",
+        "value": 2
+      }
+    ]
+  },
+  {
+    "order": 77,
+    "coreArea": "Grit + Resilience",
+    "prompt": "You realize you misunderstood the instructions. What do you do?",
+    "options": [
+      {
+        "text": "I break the problem down, try another approach, and keep going until I make progress.",
+        "value": 3
+      },
+      {
+        "text": "I take a short break, then retry with a checklist.",
+        "value": 2
+      },
+      {
+        "text": "I quit and assume I'm not good at it.",
+        "value": 0
+      },
+      {
+        "text": "I pause the task and come back only if I have to.",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "order": 78,
+    "coreArea": "Grit + Resilience",
+    "prompt": "You try a new learning strategy and it doesn't help. What do you do?",
+    "options": [
+      {
+        "text": "I pause the task and come back only if I have to.",
+        "value": 1
+      },
+      {
+        "text": "I take a short break, then retry with a checklist.",
+        "value": 2
+      },
+      {
+        "text": "I break the problem down, try another approach, and keep going until I make progress.",
+        "value": 3
+      },
+      {
+        "text": "I quit and assume I'm not good at it.",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "order": 79,
+    "coreArea": "Grit + Resilience",
+    "prompt": "You hit a plateau where improvement feels slow. What do you do?",
+    "options": [
+      {
+        "text": "I break the problem down, try another approach, and keep going until I make progress.",
+        "value": 3
+      },
+      {
+        "text": "I pause the task and come back only if I have to.",
+        "value": 1
+      },
+      {
+        "text": "I take a short break, then retry with a checklist.",
+        "value": 2
+      },
+      {
+        "text": "I quit and assume I'm not good at it.",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "order": 80,
+    "coreArea": "Grit + Resilience",
+    "prompt": "You make a mistake that impacts your team. What do you do?",
+    "options": [
+      {
+        "text": "I pause the task and come back only if I have to.",
+        "value": 1
+      },
+      {
+        "text": "I quit and assume I'm not good at it.",
+        "value": 0
+      },
+      {
+        "text": "I break the problem down, try another approach, and keep going until I make progress.",
+        "value": 3
+      },
+      {
+        "text": "I take a short break, then retry with a checklist.",
+        "value": 2
+      }
+    ]
+  },
+  {
+    "order": 81,
+    "coreArea": "Critical Thinking",
+    "prompt": "You're given a requirement. What's your first step before building?",
+    "options": [
+      {
+        "text": "I clarify goals, list assumptions, compare options, and choose based on evidence and tradeoffs.",
+        "value": 3
+      },
+      {
+        "text": "I pick the most common approach and adjust if needed.",
+        "value": 2
+      },
+      {
+        "text": "I copy a solution without understanding it.",
+        "value": 0
+      },
+      {
+        "text": "I choose what feels easiest right now.",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "order": 82,
+    "coreArea": "Critical Thinking",
+    "prompt": "Two solutions both seem right. How do you choose?",
+    "options": [
+      {
+        "text": "I clarify goals, list assumptions, compare options, and choose based on evidence and tradeoffs.",
+        "value": 3
+      },
+      {
+        "text": "I pick the most common approach and adjust if needed.",
+        "value": 2
+      },
+      {
+        "text": "I copy a solution without understanding it.",
+        "value": 0
+      },
+      {
+        "text": "I choose what feels easiest right now.",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "order": 83,
+    "coreArea": "Critical Thinking",
+    "prompt": "A stakeholder says 'users want X.' What do you do?",
+    "options": [
+      {
+        "text": "I choose what feels easiest right now.",
+        "value": 1
+      },
+      {
+        "text": "I clarify goals, list assumptions, compare options, and choose based on evidence and tradeoffs.",
+        "value": 3
+      },
+      {
+        "text": "I copy a solution without understanding it.",
+        "value": 0
+      },
+      {
+        "text": "I pick the most common approach and adjust if needed.",
+        "value": 2
+      }
+    ]
+  },
+  {
+    "order": 84,
+    "coreArea": "Critical Thinking",
+    "prompt": "You see a chart showing improvement. What do you check?",
+    "options": [
+      {
+        "text": "I choose what feels easiest right now.",
+        "value": 1
+      },
+      {
+        "text": "I copy a solution without understanding it.",
+        "value": 0
+      },
+      {
+        "text": "I clarify goals, list assumptions, compare options, and choose based on evidence and tradeoffs.",
+        "value": 3
+      },
+      {
+        "text": "I pick the most common approach and adjust if needed.",
+        "value": 2
+      }
+    ]
+  },
+  {
+    "order": 85,
+    "coreArea": "Critical Thinking",
+    "prompt": "You read an article making a big claim. What do you do?",
+    "options": [
+      {
+        "text": "I clarify goals, list assumptions, compare options, and choose based on evidence and tradeoffs.",
+        "value": 3
+      },
+      {
+        "text": "I pick the most common approach and adjust if needed.",
+        "value": 2
+      },
+      {
+        "text": "I choose what feels easiest right now.",
+        "value": 1
+      },
+      {
+        "text": "I copy a solution without understanding it.",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "order": 86,
+    "coreArea": "Critical Thinking",
+    "prompt": "You're debugging and find multiple possible causes. What do you do?",
+    "options": [
+      {
+        "text": "I clarify goals, list assumptions, compare options, and choose based on evidence and tradeoffs.",
+        "value": 3
+      },
+      {
+        "text": "I pick the most common approach and adjust if needed.",
+        "value": 2
+      },
+      {
+        "text": "I copy a solution without understanding it.",
+        "value": 0
+      },
+      {
+        "text": "I choose what feels easiest right now.",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "order": 87,
+    "coreArea": "Critical Thinking",
+    "prompt": "An API response is slow. What do you do first?",
+    "options": [
+      {
+        "text": "I pick the most common approach and adjust if needed.",
+        "value": 2
+      },
+      {
+        "text": "I clarify goals, list assumptions, compare options, and choose based on evidence and tradeoffs.",
+        "value": 3
+      },
+      {
+        "text": "I copy a solution without understanding it.",
+        "value": 0
+      },
+      {
+        "text": "I choose what feels easiest right now.",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "order": 88,
+    "coreArea": "Critical Thinking",
+    "prompt": "You're asked to design a feature. What do you start with?",
+    "options": [
+      {
+        "text": "I pick the most common approach and adjust if needed.",
+        "value": 2
+      },
+      {
+        "text": "I choose what feels easiest right now.",
+        "value": 1
+      },
+      {
+        "text": "I clarify goals, list assumptions, compare options, and choose based on evidence and tradeoffs.",
+        "value": 3
+      },
+      {
+        "text": "I copy a solution without understanding it.",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "order": 89,
+    "coreArea": "Critical Thinking",
+    "prompt": "You hear 'this is the best framework.' What do you do?",
+    "options": [
+      {
+        "text": "I copy a solution without understanding it.",
+        "value": 0
+      },
+      {
+        "text": "I pick the most common approach and adjust if needed.",
+        "value": 2
+      },
+      {
+        "text": "I choose what feels easiest right now.",
+        "value": 1
+      },
+      {
+        "text": "I clarify goals, list assumptions, compare options, and choose based on evidence and tradeoffs.",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "order": 90,
+    "coreArea": "Critical Thinking",
+    "prompt": "Your team is sure about a decision. What do you do to validate it?",
+    "options": [
+      {
+        "text": "I choose what feels easiest right now.",
+        "value": 1
+      },
+      {
+        "text": "I copy a solution without understanding it.",
+        "value": 0
+      },
+      {
+        "text": "I pick the most common approach and adjust if needed.",
+        "value": 2
+      },
+      {
+        "text": "I clarify goals, list assumptions, compare options, and choose based on evidence and tradeoffs.",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "order": 91,
+    "coreArea": "Critical Thinking",
+    "prompt": "You're reviewing a PR. What do you look for beyond syntax?",
+    "options": [
+      {
+        "text": "I pick the most common approach and adjust if needed.",
+        "value": 2
+      },
+      {
+        "text": "I clarify goals, list assumptions, compare options, and choose based on evidence and tradeoffs.",
+        "value": 3
+      },
+      {
+        "text": "I choose what feels easiest right now.",
+        "value": 1
+      },
+      {
+        "text": "I copy a solution without understanding it.",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "order": 92,
+    "coreArea": "Critical Thinking",
+    "prompt": "You notice a metric is trending down. What do you do?",
+    "options": [
+      {
+        "text": "I pick the most common approach and adjust if needed.",
+        "value": 2
+      },
+      {
+        "text": "I copy a solution without understanding it.",
+        "value": 0
+      },
+      {
+        "text": "I clarify goals, list assumptions, compare options, and choose based on evidence and tradeoffs.",
+        "value": 3
+      },
+      {
+        "text": "I choose what feels easiest right now.",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "order": 93,
+    "coreArea": "Critical Thinking",
+    "prompt": "A user reports a bug but gives little detail. What do you do?",
+    "options": [
+      {
+        "text": "I copy a solution without understanding it.",
+        "value": 0
+      },
+      {
+        "text": "I choose what feels easiest right now.",
+        "value": 1
+      },
+      {
+        "text": "I clarify goals, list assumptions, compare options, and choose based on evidence and tradeoffs.",
+        "value": 3
+      },
+      {
+        "text": "I pick the most common approach and adjust if needed.",
+        "value": 2
+      }
+    ]
+  },
+  {
+    "order": 94,
+    "coreArea": "Critical Thinking",
+    "prompt": "You're asked to estimate how long a task will take. What do you do?",
+    "options": [
+      {
+        "text": "I choose what feels easiest right now.",
+        "value": 1
+      },
+      {
+        "text": "I pick the most common approach and adjust if needed.",
+        "value": 2
+      },
+      {
+        "text": "I clarify goals, list assumptions, compare options, and choose based on evidence and tradeoffs.",
+        "value": 3
+      },
+      {
+        "text": "I copy a solution without understanding it.",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "order": 95,
+    "coreArea": "Critical Thinking",
+    "prompt": "You find a contradiction in two sources. What do you do?",
+    "options": [
+      {
+        "text": "I clarify goals, list assumptions, compare options, and choose based on evidence and tradeoffs.",
+        "value": 3
+      },
+      {
+        "text": "I choose what feels easiest right now.",
+        "value": 1
+      },
+      {
+        "text": "I pick the most common approach and adjust if needed.",
+        "value": 2
+      },
+      {
+        "text": "I copy a solution without understanding it.",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "order": 96,
+    "coreArea": "Critical Thinking",
+    "prompt": "You see a security warning in a dependency. What do you do?",
+    "options": [
+      {
+        "text": "I clarify goals, list assumptions, compare options, and choose based on evidence and tradeoffs.",
+        "value": 3
+      },
+      {
+        "text": "I pick the most common approach and adjust if needed.",
+        "value": 2
+      },
+      {
+        "text": "I copy a solution without understanding it.",
+        "value": 0
+      },
+      {
+        "text": "I choose what feels easiest right now.",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "order": 97,
+    "coreArea": "Critical Thinking",
+    "prompt": "You're interpreting a requirements doc with gaps. What do you do?",
+    "options": [
+      {
+        "text": "I copy a solution without understanding it.",
+        "value": 0
+      },
+      {
+        "text": "I clarify goals, list assumptions, compare options, and choose based on evidence and tradeoffs.",
+        "value": 3
+      },
+      {
+        "text": "I pick the most common approach and adjust if needed.",
+        "value": 2
+      },
+      {
+        "text": "I choose what feels easiest right now.",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "order": 98,
+    "coreArea": "Critical Thinking",
+    "prompt": "You're choosing a database. What do you consider?",
+    "options": [
+      {
+        "text": "I pick the most common approach and adjust if needed.",
+        "value": 2
+      },
+      {
+        "text": "I clarify goals, list assumptions, compare options, and choose based on evidence and tradeoffs.",
+        "value": 3
+      },
+      {
+        "text": "I choose what feels easiest right now.",
+        "value": 1
+      },
+      {
+        "text": "I copy a solution without understanding it.",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "order": 99,
+    "coreArea": "Critical Thinking",
+    "prompt": "An experiment result looks too good. What do you suspect?",
+    "options": [
+      {
+        "text": "I choose what feels easiest right now.",
+        "value": 1
+      },
+      {
+        "text": "I copy a solution without understanding it.",
+        "value": 0
+      },
+      {
+        "text": "I pick the most common approach and adjust if needed.",
+        "value": 2
+      },
+      {
+        "text": "I clarify goals, list assumptions, compare options, and choose based on evidence and tradeoffs.",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "order": 100,
+    "coreArea": "Critical Thinking",
+    "prompt": "You need to prioritize features. What guides your choice?",
+    "options": [
+      {
+        "text": "I clarify goals, list assumptions, compare options, and choose based on evidence and tradeoffs.",
+        "value": 3
+      },
+      {
+        "text": "I copy a solution without understanding it.",
+        "value": 0
+      },
+      {
+        "text": "I pick the most common approach and adjust if needed.",
+        "value": 2
+      },
+      {
+        "text": "I choose what feels easiest right now.",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "order": 101,
+    "coreArea": "Critical Thinking",
+    "prompt": "You're told to 'ship fast.' What do you consider first?",
+    "options": [
+      {
+        "text": "I clarify goals, list assumptions, compare options, and choose based on evidence and tradeoffs.",
+        "value": 3
+      },
+      {
+        "text": "I copy a solution without understanding it.",
+        "value": 0
+      },
+      {
+        "text": "I pick the most common approach and adjust if needed.",
+        "value": 2
+      },
+      {
+        "text": "I choose what feels easiest right now.",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "order": 102,
+    "coreArea": "Critical Thinking",
+    "prompt": "A teammate says 'it's fine.' What do you do?",
+    "options": [
+      {
+        "text": "I copy a solution without understanding it.",
+        "value": 0
+      },
+      {
+        "text": "I pick the most common approach and adjust if needed.",
+        "value": 2
+      },
+      {
+        "text": "I choose what feels easiest right now.",
+        "value": 1
+      },
+      {
+        "text": "I clarify goals, list assumptions, compare options, and choose based on evidence and tradeoffs.",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "order": 103,
+    "coreArea": "Critical Thinking",
+    "prompt": "You're writing a function. What do you do before coding?",
+    "options": [
+      {
+        "text": "I copy a solution without understanding it.",
+        "value": 0
+      },
+      {
+        "text": "I clarify goals, list assumptions, compare options, and choose based on evidence and tradeoffs.",
+        "value": 3
+      },
+      {
+        "text": "I choose what feels easiest right now.",
+        "value": 1
+      },
+      {
+        "text": "I pick the most common approach and adjust if needed.",
+        "value": 2
+      }
+    ]
+  },
+  {
+    "order": 104,
+    "coreArea": "Critical Thinking",
+    "prompt": "You're looking at logs. What's your approach?",
+    "options": [
+      {
+        "text": "I pick the most common approach and adjust if needed.",
+        "value": 2
+      },
+      {
+        "text": "I copy a solution without understanding it.",
+        "value": 0
+      },
+      {
+        "text": "I clarify goals, list assumptions, compare options, and choose based on evidence and tradeoffs.",
+        "value": 3
+      },
+      {
+        "text": "I choose what feels easiest right now.",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "order": 105,
+    "coreArea": "Critical Thinking",
+    "prompt": "You suspect an edge case. What do you do?",
+    "options": [
+      {
+        "text": "I choose what feels easiest right now.",
+        "value": 1
+      },
+      {
+        "text": "I clarify goals, list assumptions, compare options, and choose based on evidence and tradeoffs.",
+        "value": 3
+      },
+      {
+        "text": "I pick the most common approach and adjust if needed.",
+        "value": 2
+      },
+      {
+        "text": "I copy a solution without understanding it.",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "order": 106,
+    "coreArea": "Critical Thinking",
+    "prompt": "You're evaluating a tutorial. What do you look for?",
+    "options": [
+      {
+        "text": "I choose what feels easiest right now.",
+        "value": 1
+      },
+      {
+        "text": "I clarify goals, list assumptions, compare options, and choose based on evidence and tradeoffs.",
+        "value": 3
+      },
+      {
+        "text": "I pick the most common approach and adjust if needed.",
+        "value": 2
+      },
+      {
+        "text": "I copy a solution without understanding it.",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "order": 107,
+    "coreArea": "Critical Thinking",
+    "prompt": "You see a failing test. What do you do first?",
+    "options": [
+      {
+        "text": "I copy a solution without understanding it.",
+        "value": 0
+      },
+      {
+        "text": "I pick the most common approach and adjust if needed.",
+        "value": 2
+      },
+      {
+        "text": "I choose what feels easiest right now.",
+        "value": 1
+      },
+      {
+        "text": "I clarify goals, list assumptions, compare options, and choose based on evidence and tradeoffs.",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "order": 108,
+    "coreArea": "Critical Thinking",
+    "prompt": "You're asked to solve a problem with limited time. What do you do?",
+    "options": [
+      {
+        "text": "I pick the most common approach and adjust if needed.",
+        "value": 2
+      },
+      {
+        "text": "I choose what feels easiest right now.",
+        "value": 1
+      },
+      {
+        "text": "I clarify goals, list assumptions, compare options, and choose based on evidence and tradeoffs.",
+        "value": 3
+      },
+      {
+        "text": "I copy a solution without understanding it.",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "order": 109,
+    "coreArea": "Critical Thinking",
+    "prompt": "You're analyzing user feedback. What do you do?",
+    "options": [
+      {
+        "text": "I choose what feels easiest right now.",
+        "value": 1
+      },
+      {
+        "text": "I clarify goals, list assumptions, compare options, and choose based on evidence and tradeoffs.",
+        "value": 3
+      },
+      {
+        "text": "I pick the most common approach and adjust if needed.",
+        "value": 2
+      },
+      {
+        "text": "I copy a solution without understanding it.",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "order": 110,
+    "coreArea": "Critical Thinking",
+    "prompt": "You're making a data-driven decision. What's your step?",
+    "options": [
+      {
+        "text": "I pick the most common approach and adjust if needed.",
+        "value": 2
+      },
+      {
+        "text": "I choose what feels easiest right now.",
+        "value": 1
+      },
+      {
+        "text": "I clarify goals, list assumptions, compare options, and choose based on evidence and tradeoffs.",
+        "value": 3
+      },
+      {
+        "text": "I copy a solution without understanding it.",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "order": 111,
+    "coreArea": "Critical Thinking",
+    "prompt": "You get an ambiguous error. What do you do?",
+    "options": [
+      {
+        "text": "I copy a solution without understanding it.",
+        "value": 0
+      },
+      {
+        "text": "I clarify goals, list assumptions, compare options, and choose based on evidence and tradeoffs.",
+        "value": 3
+      },
+      {
+        "text": "I pick the most common approach and adjust if needed.",
+        "value": 2
+      },
+      {
+        "text": "I choose what feels easiest right now.",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "order": 112,
+    "coreArea": "Critical Thinking",
+    "prompt": "You're asked to pick KPIs. How do you decide?",
+    "options": [
+      {
+        "text": "I choose what feels easiest right now.",
+        "value": 1
+      },
+      {
+        "text": "I pick the most common approach and adjust if needed.",
+        "value": 2
+      },
+      {
+        "text": "I clarify goals, list assumptions, compare options, and choose based on evidence and tradeoffs.",
+        "value": 3
+      },
+      {
+        "text": "I copy a solution without understanding it.",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "order": 113,
+    "coreArea": "Critical Thinking",
+    "prompt": "You see correlation in data. What do you avoid?",
+    "options": [
+      {
+        "text": "I pick the most common approach and adjust if needed.",
+        "value": 2
+      },
+      {
+        "text": "I clarify goals, list assumptions, compare options, and choose based on evidence and tradeoffs.",
+        "value": 3
+      },
+      {
+        "text": "I copy a solution without understanding it.",
+        "value": 0
+      },
+      {
+        "text": "I choose what feels easiest right now.",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "order": 114,
+    "coreArea": "Critical Thinking",
+    "prompt": "A teammate proposes a shortcut. What do you ask?",
+    "options": [
+      {
+        "text": "I choose what feels easiest right now.",
+        "value": 1
+      },
+      {
+        "text": "I clarify goals, list assumptions, compare options, and choose based on evidence and tradeoffs.",
+        "value": 3
+      },
+      {
+        "text": "I copy a solution without understanding it.",
+        "value": 0
+      },
+      {
+        "text": "I pick the most common approach and adjust if needed.",
+        "value": 2
+      }
+    ]
+  },
+  {
+    "order": 115,
+    "coreArea": "Critical Thinking",
+    "prompt": "You're asked to design an API. What do you start with?",
+    "options": [
+      {
+        "text": "I pick the most common approach and adjust if needed.",
+        "value": 2
+      },
+      {
+        "text": "I clarify goals, list assumptions, compare options, and choose based on evidence and tradeoffs.",
+        "value": 3
+      },
+      {
+        "text": "I choose what feels easiest right now.",
+        "value": 1
+      },
+      {
+        "text": "I copy a solution without understanding it.",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "order": 116,
+    "coreArea": "Critical Thinking",
+    "prompt": "You need to handle missing data. What do you do?",
+    "options": [
+      {
+        "text": "I clarify goals, list assumptions, compare options, and choose based on evidence and tradeoffs.",
+        "value": 3
+      },
+      {
+        "text": "I copy a solution without understanding it.",
+        "value": 0
+      },
+      {
+        "text": "I choose what feels easiest right now.",
+        "value": 1
+      },
+      {
+        "text": "I pick the most common approach and adjust if needed.",
+        "value": 2
+      }
+    ]
+  },
+  {
+    "order": 117,
+    "coreArea": "Critical Thinking",
+    "prompt": "You're reading code you didn't write. How do you approach it?",
+    "options": [
+      {
+        "text": "I pick the most common approach and adjust if needed.",
+        "value": 2
+      },
+      {
+        "text": "I clarify goals, list assumptions, compare options, and choose based on evidence and tradeoffs.",
+        "value": 3
+      },
+      {
+        "text": "I choose what feels easiest right now.",
+        "value": 1
+      },
+      {
+        "text": "I copy a solution without understanding it.",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "order": 118,
+    "coreArea": "Critical Thinking",
+    "prompt": "You're asked to review a plan. What do you challenge?",
+    "options": [
+      {
+        "text": "I choose what feels easiest right now.",
+        "value": 1
+      },
+      {
+        "text": "I pick the most common approach and adjust if needed.",
+        "value": 2
+      },
+      {
+        "text": "I clarify goals, list assumptions, compare options, and choose based on evidence and tradeoffs.",
+        "value": 3
+      },
+      {
+        "text": "I copy a solution without understanding it.",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "order": 119,
+    "coreArea": "Critical Thinking",
+    "prompt": "You're planning a release. What do you think through?",
+    "options": [
+      {
+        "text": "I pick the most common approach and adjust if needed.",
+        "value": 2
+      },
+      {
+        "text": "I choose what feels easiest right now.",
+        "value": 1
+      },
+      {
+        "text": "I clarify goals, list assumptions, compare options, and choose based on evidence and tradeoffs.",
+        "value": 3
+      },
+      {
+        "text": "I copy a solution without understanding it.",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "order": 120,
+    "coreArea": "Critical Thinking",
+    "prompt": "You're troubleshooting production. What's your mindset?",
+    "options": [
+      {
+        "text": "I clarify goals, list assumptions, compare options, and choose based on evidence and tradeoffs.",
+        "value": 3
+      },
+      {
+        "text": "I pick the most common approach and adjust if needed.",
+        "value": 2
+      },
+      {
+        "text": "I choose what feels easiest right now.",
+        "value": 1
+      },
+      {
+        "text": "I copy a solution without understanding it.",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "order": 121,
+    "coreArea": "Attention to Detail",
+    "prompt": "You're about to submit an assignment. What do you do right before submitting?",
+    "options": [
+      {
+        "text": "I skip checks to save time.",
+        "value": 0
+      },
+      {
+        "text": "I do a quick check for obvious issues.",
+        "value": 2
+      },
+      {
+        "text": "I submit once it works on my machine.",
+        "value": 1
+      },
+      {
+        "text": "I review against requirements, test edge cases, and verify before submitting.",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "order": 122,
+    "coreArea": "Attention to Detail",
+    "prompt": "You're writing instructions for users. What do you focus on?",
+    "options": [
+      {
+        "text": "I review against requirements, test edge cases, and verify before submitting.",
+        "value": 3
+      },
+      {
+        "text": "I submit once it works on my machine.",
+        "value": 1
+      },
+      {
+        "text": "I skip checks to save time.",
+        "value": 0
+      },
+      {
+        "text": "I do a quick check for obvious issues.",
+        "value": 2
+      }
+    ]
+  },
+  {
+    "order": 123,
+    "coreArea": "Attention to Detail",
+    "prompt": "You're implementing a UI form. What do you pay attention to?",
+    "options": [
+      {
+        "text": "I do a quick check for obvious issues.",
+        "value": 2
+      },
+      {
+        "text": "I submit once it works on my machine.",
+        "value": 1
+      },
+      {
+        "text": "I skip checks to save time.",
+        "value": 0
+      },
+      {
+        "text": "I review against requirements, test edge cases, and verify before submitting.",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "order": 124,
+    "coreArea": "Attention to Detail",
+    "prompt": "You're naming variables and files. What do you do?",
+    "options": [
+      {
+        "text": "I do a quick check for obvious issues.",
+        "value": 2
+      },
+      {
+        "text": "I review against requirements, test edge cases, and verify before submitting.",
+        "value": 3
+      },
+      {
+        "text": "I submit once it works on my machine.",
+        "value": 1
+      },
+      {
+        "text": "I skip checks to save time.",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "order": 125,
+    "coreArea": "Attention to Detail",
+    "prompt": "You're setting up a repo for a team. What do you do?",
+    "options": [
+      {
+        "text": "I skip checks to save time.",
+        "value": 0
+      },
+      {
+        "text": "I submit once it works on my machine.",
+        "value": 1
+      },
+      {
+        "text": "I review against requirements, test edge cases, and verify before submitting.",
+        "value": 3
+      },
+      {
+        "text": "I do a quick check for obvious issues.",
+        "value": 2
+      }
+    ]
+  },
+  {
+    "order": 126,
+    "coreArea": "Attention to Detail",
+    "prompt": "You're copying data from one place to another. What do you do to avoid errors?",
+    "options": [
+      {
+        "text": "I submit once it works on my machine.",
+        "value": 1
+      },
+      {
+        "text": "I do a quick check for obvious issues.",
+        "value": 2
+      },
+      {
+        "text": "I review against requirements, test edge cases, and verify before submitting.",
+        "value": 3
+      },
+      {
+        "text": "I skip checks to save time.",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "order": 127,
+    "coreArea": "Attention to Detail",
+    "prompt": "You're building a layout. What do you check?",
+    "options": [
+      {
+        "text": "I review against requirements, test edge cases, and verify before submitting.",
+        "value": 3
+      },
+      {
+        "text": "I do a quick check for obvious issues.",
+        "value": 2
+      },
+      {
+        "text": "I submit once it works on my machine.",
+        "value": 1
+      },
+      {
+        "text": "I skip checks to save time.",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "order": 128,
+    "coreArea": "Attention to Detail",
+    "prompt": "You're writing a README. What do you include?",
+    "options": [
+      {
+        "text": "I submit once it works on my machine.",
+        "value": 1
+      },
+      {
+        "text": "I review against requirements, test edge cases, and verify before submitting.",
+        "value": 3
+      },
+      {
+        "text": "I skip checks to save time.",
+        "value": 0
+      },
+      {
+        "text": "I do a quick check for obvious issues.",
+        "value": 2
+      }
+    ]
+  },
+  {
+    "order": 129,
+    "coreArea": "Attention to Detail",
+    "prompt": "You're using an API. What do you verify?",
+    "options": [
+      {
+        "text": "I submit once it works on my machine.",
+        "value": 1
+      },
+      {
+        "text": "I do a quick check for obvious issues.",
+        "value": 2
+      },
+      {
+        "text": "I skip checks to save time.",
+        "value": 0
+      },
+      {
+        "text": "I review against requirements, test edge cases, and verify before submitting.",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "order": 130,
+    "coreArea": "Attention to Detail",
+    "prompt": "You're handling user input. What do you prioritize?",
+    "options": [
+      {
+        "text": "I submit once it works on my machine.",
+        "value": 1
+      },
+      {
+        "text": "I do a quick check for obvious issues.",
+        "value": 2
+      },
+      {
+        "text": "I review against requirements, test edge cases, and verify before submitting.",
+        "value": 3
+      },
+      {
+        "text": "I skip checks to save time.",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "order": 131,
+    "coreArea": "Attention to Detail",
+    "prompt": "You're deploying an app. What do you double-check?",
+    "options": [
+      {
+        "text": "I skip checks to save time.",
+        "value": 0
+      },
+      {
+        "text": "I do a quick check for obvious issues.",
+        "value": 2
+      },
+      {
+        "text": "I submit once it works on my machine.",
+        "value": 1
+      },
+      {
+        "text": "I review against requirements, test edge cases, and verify before submitting.",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "order": 132,
+    "coreArea": "Attention to Detail",
+    "prompt": "You're looking at an error message. What do you do?",
+    "options": [
+      {
+        "text": "I review against requirements, test edge cases, and verify before submitting.",
+        "value": 3
+      },
+      {
+        "text": "I submit once it works on my machine.",
+        "value": 1
+      },
+      {
+        "text": "I skip checks to save time.",
+        "value": 0
+      },
+      {
+        "text": "I do a quick check for obvious issues.",
+        "value": 2
+      }
+    ]
+  },
+  {
+    "order": 133,
+    "coreArea": "Attention to Detail",
+    "prompt": "You're creating a checklist for a task. What do you do?",
+    "options": [
+      {
+        "text": "I skip checks to save time.",
+        "value": 0
+      },
+      {
+        "text": "I review against requirements, test edge cases, and verify before submitting.",
+        "value": 3
+      },
+      {
+        "text": "I submit once it works on my machine.",
+        "value": 1
+      },
+      {
+        "text": "I do a quick check for obvious issues.",
+        "value": 2
+      }
+    ]
+  },
+  {
+    "order": 134,
+    "coreArea": "Attention to Detail",
+    "prompt": "You're formatting dates/currency. What do you do?",
+    "options": [
+      {
+        "text": "I submit once it works on my machine.",
+        "value": 1
+      },
+      {
+        "text": "I do a quick check for obvious issues.",
+        "value": 2
+      },
+      {
+        "text": "I skip checks to save time.",
+        "value": 0
+      },
+      {
+        "text": "I review against requirements, test edge cases, and verify before submitting.",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "order": 135,
+    "coreArea": "Attention to Detail",
+    "prompt": "You're writing tests. What do you include?",
+    "options": [
+      {
+        "text": "I submit once it works on my machine.",
+        "value": 1
+      },
+      {
+        "text": "I do a quick check for obvious issues.",
+        "value": 2
+      },
+      {
+        "text": "I skip checks to save time.",
+        "value": 0
+      },
+      {
+        "text": "I review against requirements, test edge cases, and verify before submitting.",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "order": 136,
+    "coreArea": "Attention to Detail",
+    "prompt": "You're updating dependencies. What do you do?",
+    "options": [
+      {
+        "text": "I submit once it works on my machine.",
+        "value": 1
+      },
+      {
+        "text": "I skip checks to save time.",
+        "value": 0
+      },
+      {
+        "text": "I do a quick check for obvious issues.",
+        "value": 2
+      },
+      {
+        "text": "I review against requirements, test edge cases, and verify before submitting.",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "order": 137,
+    "coreArea": "Attention to Detail",
+    "prompt": "You're building a table with pagination. What do you check?",
+    "options": [
+      {
+        "text": "I review against requirements, test edge cases, and verify before submitting.",
+        "value": 3
+      },
+      {
+        "text": "I submit once it works on my machine.",
+        "value": 1
+      },
+      {
+        "text": "I do a quick check for obvious issues.",
+        "value": 2
+      },
+      {
+        "text": "I skip checks to save time.",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "order": 138,
+    "coreArea": "Attention to Detail",
+    "prompt": "You're working with authentication. What do you verify?",
+    "options": [
+      {
+        "text": "I review against requirements, test edge cases, and verify before submitting.",
+        "value": 3
+      },
+      {
+        "text": "I submit once it works on my machine.",
+        "value": 1
+      },
+      {
+        "text": "I skip checks to save time.",
+        "value": 0
+      },
+      {
+        "text": "I do a quick check for obvious issues.",
+        "value": 2
+      }
+    ]
+  },
+  {
+    "order": 139,
+    "coreArea": "Attention to Detail",
+    "prompt": "You're creating a design in Figma. What do you check?",
+    "options": [
+      {
+        "text": "I submit once it works on my machine.",
+        "value": 1
+      },
+      {
+        "text": "I skip checks to save time.",
+        "value": 0
+      },
+      {
+        "text": "I review against requirements, test edge cases, and verify before submitting.",
+        "value": 3
+      },
+      {
+        "text": "I do a quick check for obvious issues.",
+        "value": 2
+      }
+    ]
+  },
+  {
+    "order": 140,
+    "coreArea": "Attention to Detail",
+    "prompt": "You're adding analytics tracking. What do you do?",
+    "options": [
+      {
+        "text": "I do a quick check for obvious issues.",
+        "value": 2
+      },
+      {
+        "text": "I review against requirements, test edge cases, and verify before submitting.",
+        "value": 3
+      },
+      {
+        "text": "I submit once it works on my machine.",
+        "value": 1
+      },
+      {
+        "text": "I skip checks to save time.",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "order": 141,
+    "coreArea": "Attention to Detail",
+    "prompt": "You're setting up environment variables. What do you ensure?",
+    "options": [
+      {
+        "text": "I submit once it works on my machine.",
+        "value": 1
+      },
+      {
+        "text": "I review against requirements, test edge cases, and verify before submitting.",
+        "value": 3
+      },
+      {
+        "text": "I skip checks to save time.",
+        "value": 0
+      },
+      {
+        "text": "I do a quick check for obvious issues.",
+        "value": 2
+      }
+    ]
+  },
+  {
+    "order": 142,
+    "coreArea": "Attention to Detail",
+    "prompt": "You're writing a pull request description. What do you do?",
+    "options": [
+      {
+        "text": "I submit once it works on my machine.",
+        "value": 1
+      },
+      {
+        "text": "I skip checks to save time.",
+        "value": 0
+      },
+      {
+        "text": "I do a quick check for obvious issues.",
+        "value": 2
+      },
+      {
+        "text": "I review against requirements, test edge cases, and verify before submitting.",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "order": 143,
+    "coreArea": "Attention to Detail",
+    "prompt": "You're documenting an API endpoint. What do you include?",
+    "options": [
+      {
+        "text": "I review against requirements, test edge cases, and verify before submitting.",
+        "value": 3
+      },
+      {
+        "text": "I do a quick check for obvious issues.",
+        "value": 2
+      },
+      {
+        "text": "I submit once it works on my machine.",
+        "value": 1
+      },
+      {
+        "text": "I skip checks to save time.",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "order": 144,
+    "coreArea": "Attention to Detail",
+    "prompt": "You're preparing a demo. What do you do?",
+    "options": [
+      {
+        "text": "I skip checks to save time.",
+        "value": 0
+      },
+      {
+        "text": "I submit once it works on my machine.",
+        "value": 1
+      },
+      {
+        "text": "I do a quick check for obvious issues.",
+        "value": 2
+      },
+      {
+        "text": "I review against requirements, test edge cases, and verify before submitting.",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "order": 145,
+    "coreArea": "Attention to Detail",
+    "prompt": "You're editing content for a site. What do you do?",
+    "options": [
+      {
+        "text": "I skip checks to save time.",
+        "value": 0
+      },
+      {
+        "text": "I do a quick check for obvious issues.",
+        "value": 2
+      },
+      {
+        "text": "I submit once it works on my machine.",
+        "value": 1
+      },
+      {
+        "text": "I review against requirements, test edge cases, and verify before submitting.",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "order": 146,
+    "coreArea": "Attention to Detail",
+    "prompt": "You're working on accessibility. What do you check?",
+    "options": [
+      {
+        "text": "I do a quick check for obvious issues.",
+        "value": 2
+      },
+      {
+        "text": "I review against requirements, test edge cases, and verify before submitting.",
+        "value": 3
+      },
+      {
+        "text": "I skip checks to save time.",
+        "value": 0
+      },
+      {
+        "text": "I submit once it works on my machine.",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "order": 147,
+    "coreArea": "Attention to Detail",
+    "prompt": "You're testing in different browsers. What do you do?",
+    "options": [
+      {
+        "text": "I do a quick check for obvious issues.",
+        "value": 2
+      },
+      {
+        "text": "I submit once it works on my machine.",
+        "value": 1
+      },
+      {
+        "text": "I review against requirements, test edge cases, and verify before submitting.",
+        "value": 3
+      },
+      {
+        "text": "I skip checks to save time.",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "order": 148,
+    "coreArea": "Attention to Detail",
+    "prompt": "You're validating a form. What do you include?",
+    "options": [
+      {
+        "text": "I skip checks to save time.",
+        "value": 0
+      },
+      {
+        "text": "I submit once it works on my machine.",
+        "value": 1
+      },
+      {
+        "text": "I do a quick check for obvious issues.",
+        "value": 2
+      },
+      {
+        "text": "I review against requirements, test edge cases, and verify before submitting.",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "order": 149,
+    "coreArea": "Attention to Detail",
+    "prompt": "You're building a responsive layout. What do you do?",
+    "options": [
+      {
+        "text": "I submit once it works on my machine.",
+        "value": 1
+      },
+      {
+        "text": "I skip checks to save time.",
+        "value": 0
+      },
+      {
+        "text": "I do a quick check for obvious issues.",
+        "value": 2
+      },
+      {
+        "text": "I review against requirements, test edge cases, and verify before submitting.",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "order": 150,
+    "coreArea": "Attention to Detail",
+    "prompt": "You're planning tasks for the week. What do you do?",
+    "options": [
+      {
+        "text": "I skip checks to save time.",
+        "value": 0
+      },
+      {
+        "text": "I review against requirements, test edge cases, and verify before submitting.",
+        "value": 3
+      },
+      {
+        "text": "I do a quick check for obvious issues.",
+        "value": 2
+      },
+      {
+        "text": "I submit once it works on my machine.",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "order": 151,
+    "coreArea": "Attention to Detail",
+    "prompt": "You're cleaning up code. What do you focus on?",
+    "options": [
+      {
+        "text": "I do a quick check for obvious issues.",
+        "value": 2
+      },
+      {
+        "text": "I review against requirements, test edge cases, and verify before submitting.",
+        "value": 3
+      },
+      {
+        "text": "I submit once it works on my machine.",
+        "value": 1
+      },
+      {
+        "text": "I skip checks to save time.",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "order": 152,
+    "coreArea": "Attention to Detail",
+    "prompt": "You're importing a library. What do you do first?",
+    "options": [
+      {
+        "text": "I submit once it works on my machine.",
+        "value": 1
+      },
+      {
+        "text": "I review against requirements, test edge cases, and verify before submitting.",
+        "value": 3
+      },
+      {
+        "text": "I do a quick check for obvious issues.",
+        "value": 2
+      },
+      {
+        "text": "I skip checks to save time.",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "order": 153,
+    "coreArea": "Attention to Detail",
+    "prompt": "You're handling file uploads. What do you consider?",
+    "options": [
+      {
+        "text": "I review against requirements, test edge cases, and verify before submitting.",
+        "value": 3
+      },
+      {
+        "text": "I submit once it works on my machine.",
+        "value": 1
+      },
+      {
+        "text": "I skip checks to save time.",
+        "value": 0
+      },
+      {
+        "text": "I do a quick check for obvious issues.",
+        "value": 2
+      }
+    ]
+  },
+  {
+    "order": 154,
+    "coreArea": "Attention to Detail",
+    "prompt": "You're making a chart. What do you verify?",
+    "options": [
+      {
+        "text": "I submit once it works on my machine.",
+        "value": 1
+      },
+      {
+        "text": "I skip checks to save time.",
+        "value": 0
+      },
+      {
+        "text": "I review against requirements, test edge cases, and verify before submitting.",
+        "value": 3
+      },
+      {
+        "text": "I do a quick check for obvious issues.",
+        "value": 2
+      }
+    ]
+  },
+  {
+    "order": 155,
+    "coreArea": "Attention to Detail",
+    "prompt": "You're shipping a hotfix. What do you do?",
+    "options": [
+      {
+        "text": "I skip checks to save time.",
+        "value": 0
+      },
+      {
+        "text": "I review against requirements, test edge cases, and verify before submitting.",
+        "value": 3
+      },
+      {
+        "text": "I submit once it works on my machine.",
+        "value": 1
+      },
+      {
+        "text": "I do a quick check for obvious issues.",
+        "value": 2
+      }
+    ]
+  },
+  {
+    "order": 156,
+    "coreArea": "Attention to Detail",
+    "prompt": "You're reviewing a teammate's work. What do you do?",
+    "options": [
+      {
+        "text": "I do a quick check for obvious issues.",
+        "value": 2
+      },
+      {
+        "text": "I review against requirements, test edge cases, and verify before submitting.",
+        "value": 3
+      },
+      {
+        "text": "I skip checks to save time.",
+        "value": 0
+      },
+      {
+        "text": "I submit once it works on my machine.",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "order": 157,
+    "coreArea": "Attention to Detail",
+    "prompt": "You're managing a backlog item. What do you do?",
+    "options": [
+      {
+        "text": "I do a quick check for obvious issues.",
+        "value": 2
+      },
+      {
+        "text": "I skip checks to save time.",
+        "value": 0
+      },
+      {
+        "text": "I submit once it works on my machine.",
+        "value": 1
+      },
+      {
+        "text": "I review against requirements, test edge cases, and verify before submitting.",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "order": 158,
+    "coreArea": "Attention to Detail",
+    "prompt": "You're writing an email update. What do you do?",
+    "options": [
+      {
+        "text": "I do a quick check for obvious issues.",
+        "value": 2
+      },
+      {
+        "text": "I skip checks to save time.",
+        "value": 0
+      },
+      {
+        "text": "I review against requirements, test edge cases, and verify before submitting.",
+        "value": 3
+      },
+      {
+        "text": "I submit once it works on my machine.",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "order": 159,
+    "coreArea": "Attention to Detail",
+    "prompt": "You're recording meeting notes. What do you do?",
+    "options": [
+      {
+        "text": "I review against requirements, test edge cases, and verify before submitting.",
+        "value": 3
+      },
+      {
+        "text": "I skip checks to save time.",
+        "value": 0
+      },
+      {
+        "text": "I do a quick check for obvious issues.",
+        "value": 2
+      },
+      {
+        "text": "I submit once it works on my machine.",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "order": 160,
+    "coreArea": "Attention to Detail",
+    "prompt": "You're finalizing a portfolio project. What do you do?",
+    "options": [
+      {
+        "text": "I submit once it works on my machine.",
+        "value": 1
+      },
+      {
+        "text": "I skip checks to save time.",
+        "value": 0
+      },
+      {
+        "text": "I do a quick check for obvious issues.",
+        "value": 2
+      },
+      {
+        "text": "I review against requirements, test edge cases, and verify before submitting.",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "order": 161,
+    "coreArea": "Growth Mindset + Coachability",
+    "prompt": "You receive feedback that your project is confusing. What do you do?",
+    "options": [
+      {
+        "text": "I argue and dismiss the feedback.",
+        "value": 0
+      },
+      {
+        "text": "I thank them, ask clarifying questions, apply the feedback, and track what I learned.",
+        "value": 3
+      },
+      {
+        "text": "I apply some feedback if it's easy and move on.",
+        "value": 2
+      },
+      {
+        "text": "I feel discouraged and avoid revisiting it.",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "order": 162,
+    "coreArea": "Growth Mindset + Coachability",
+    "prompt": "A mentor points out a repeated mistake. What do you do?",
+    "options": [
+      {
+        "text": "I feel discouraged and avoid revisiting it.",
+        "value": 1
+      },
+      {
+        "text": "I apply some feedback if it's easy and move on.",
+        "value": 2
+      },
+      {
+        "text": "I argue and dismiss the feedback.",
+        "value": 0
+      },
+      {
+        "text": "I thank them, ask clarifying questions, apply the feedback, and track what I learned.",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "order": 163,
+    "coreArea": "Growth Mindset + Coachability",
+    "prompt": "You're asked to learn a new tool quickly. What do you do?",
+    "options": [
+      {
+        "text": "I apply some feedback if it's easy and move on.",
+        "value": 2
+      },
+      {
+        "text": "I argue and dismiss the feedback.",
+        "value": 0
+      },
+      {
+        "text": "I feel discouraged and avoid revisiting it.",
+        "value": 1
+      },
+      {
+        "text": "I thank them, ask clarifying questions, apply the feedback, and track what I learned.",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "order": 164,
+    "coreArea": "Growth Mindset + Coachability",
+    "prompt": "Your first draft gets a lot of edits. What's your response?",
+    "options": [
+      {
+        "text": "I apply some feedback if it's easy and move on.",
+        "value": 2
+      },
+      {
+        "text": "I feel discouraged and avoid revisiting it.",
+        "value": 1
+      },
+      {
+        "text": "I argue and dismiss the feedback.",
+        "value": 0
+      },
+      {
+        "text": "I thank them, ask clarifying questions, apply the feedback, and track what I learned.",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "order": 165,
+    "coreArea": "Growth Mindset + Coachability",
+    "prompt": "You disagree with feedback. What do you do?",
+    "options": [
+      {
+        "text": "I argue and dismiss the feedback.",
+        "value": 0
+      },
+      {
+        "text": "I thank them, ask clarifying questions, apply the feedback, and track what I learned.",
+        "value": 3
+      },
+      {
+        "text": "I apply some feedback if it's easy and move on.",
+        "value": 2
+      },
+      {
+        "text": "I feel discouraged and avoid revisiting it.",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "order": 166,
+    "coreArea": "Growth Mindset + Coachability",
+    "prompt": "You notice you avoid certain tasks. What do you do?",
+    "options": [
+      {
+        "text": "I feel discouraged and avoid revisiting it.",
+        "value": 1
+      },
+      {
+        "text": "I argue and dismiss the feedback.",
+        "value": 0
+      },
+      {
+        "text": "I apply some feedback if it's easy and move on.",
+        "value": 2
+      },
+      {
+        "text": "I thank them, ask clarifying questions, apply the feedback, and track what I learned.",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "order": 167,
+    "coreArea": "Growth Mindset + Coachability",
+    "prompt": "You're told your code is hard to read. What do you do next?",
+    "options": [
+      {
+        "text": "I argue and dismiss the feedback.",
+        "value": 0
+      },
+      {
+        "text": "I thank them, ask clarifying questions, apply the feedback, and track what I learned.",
+        "value": 3
+      },
+      {
+        "text": "I feel discouraged and avoid revisiting it.",
+        "value": 1
+      },
+      {
+        "text": "I apply some feedback if it's easy and move on.",
+        "value": 2
+      }
+    ]
+  },
+  {
+    "order": 168,
+    "coreArea": "Growth Mindset + Coachability",
+    "prompt": "You get a suggestion to simplify your design. What do you do?",
+    "options": [
+      {
+        "text": "I thank them, ask clarifying questions, apply the feedback, and track what I learned.",
+        "value": 3
+      },
+      {
+        "text": "I apply some feedback if it's easy and move on.",
+        "value": 2
+      },
+      {
+        "text": "I feel discouraged and avoid revisiting it.",
+        "value": 1
+      },
+      {
+        "text": "I argue and dismiss the feedback.",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "order": 169,
+    "coreArea": "Growth Mindset + Coachability",
+    "prompt": "A peer offers help. What do you do?",
+    "options": [
+      {
+        "text": "I apply some feedback if it's easy and move on.",
+        "value": 2
+      },
+      {
+        "text": "I feel discouraged and avoid revisiting it.",
+        "value": 1
+      },
+      {
+        "text": "I thank them, ask clarifying questions, apply the feedback, and track what I learned.",
+        "value": 3
+      },
+      {
+        "text": "I argue and dismiss the feedback.",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "order": 170,
+    "coreArea": "Growth Mindset + Coachability",
+    "prompt": "You're asked to do a retrospective. What do you focus on?",
+    "options": [
+      {
+        "text": "I argue and dismiss the feedback.",
+        "value": 0
+      },
+      {
+        "text": "I thank them, ask clarifying questions, apply the feedback, and track what I learned.",
+        "value": 3
+      },
+      {
+        "text": "I feel discouraged and avoid revisiting it.",
+        "value": 1
+      },
+      {
+        "text": "I apply some feedback if it's easy and move on.",
+        "value": 2
+      }
+    ]
+  },
+  {
+    "order": 171,
+    "coreArea": "Growth Mindset + Coachability",
+    "prompt": "You get a code review with many comments. What do you do?",
+    "options": [
+      {
+        "text": "I argue and dismiss the feedback.",
+        "value": 0
+      },
+      {
+        "text": "I feel discouraged and avoid revisiting it.",
+        "value": 1
+      },
+      {
+        "text": "I thank them, ask clarifying questions, apply the feedback, and track what I learned.",
+        "value": 3
+      },
+      {
+        "text": "I apply some feedback if it's easy and move on.",
+        "value": 2
+      }
+    ]
+  },
+  {
+    "order": 172,
+    "coreArea": "Growth Mindset + Coachability",
+    "prompt": "You're assigned a topic you're weak at. What do you do?",
+    "options": [
+      {
+        "text": "I apply some feedback if it's easy and move on.",
+        "value": 2
+      },
+      {
+        "text": "I argue and dismiss the feedback.",
+        "value": 0
+      },
+      {
+        "text": "I thank them, ask clarifying questions, apply the feedback, and track what I learned.",
+        "value": 3
+      },
+      {
+        "text": "I feel discouraged and avoid revisiting it.",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "order": 173,
+    "coreArea": "Growth Mindset + Coachability",
+    "prompt": "You mess up during a presentation. What do you do afterward?",
+    "options": [
+      {
+        "text": "I apply some feedback if it's easy and move on.",
+        "value": 2
+      },
+      {
+        "text": "I argue and dismiss the feedback.",
+        "value": 0
+      },
+      {
+        "text": "I feel discouraged and avoid revisiting it.",
+        "value": 1
+      },
+      {
+        "text": "I thank them, ask clarifying questions, apply the feedback, and track what I learned.",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "order": 174,
+    "coreArea": "Growth Mindset + Coachability",
+    "prompt": "You receive feedback late in the process. What do you do?",
+    "options": [
+      {
+        "text": "I apply some feedback if it's easy and move on.",
+        "value": 2
+      },
+      {
+        "text": "I argue and dismiss the feedback.",
+        "value": 0
+      },
+      {
+        "text": "I thank them, ask clarifying questions, apply the feedback, and track what I learned.",
+        "value": 3
+      },
+      {
+        "text": "I feel discouraged and avoid revisiting it.",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "order": 175,
+    "coreArea": "Growth Mindset + Coachability",
+    "prompt": "You're asked to mentor someone newer than you. What do you do?",
+    "options": [
+      {
+        "text": "I thank them, ask clarifying questions, apply the feedback, and track what I learned.",
+        "value": 3
+      },
+      {
+        "text": "I apply some feedback if it's easy and move on.",
+        "value": 2
+      },
+      {
+        "text": "I argue and dismiss the feedback.",
+        "value": 0
+      },
+      {
+        "text": "I feel discouraged and avoid revisiting it.",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "order": 176,
+    "coreArea": "Growth Mindset + Coachability",
+    "prompt": "You realize your approach is inefficient. What do you do?",
+    "options": [
+      {
+        "text": "I apply some feedback if it's easy and move on.",
+        "value": 2
+      },
+      {
+        "text": "I argue and dismiss the feedback.",
+        "value": 0
+      },
+      {
+        "text": "I feel discouraged and avoid revisiting it.",
+        "value": 1
+      },
+      {
+        "text": "I thank them, ask clarifying questions, apply the feedback, and track what I learned.",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "order": 177,
+    "coreArea": "Growth Mindset + Coachability",
+    "prompt": "You're told to 'show your work' more. What do you do?",
+    "options": [
+      {
+        "text": "I apply some feedback if it's easy and move on.",
+        "value": 2
+      },
+      {
+        "text": "I feel discouraged and avoid revisiting it.",
+        "value": 1
+      },
+      {
+        "text": "I argue and dismiss the feedback.",
+        "value": 0
+      },
+      {
+        "text": "I thank them, ask clarifying questions, apply the feedback, and track what I learned.",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "order": 178,
+    "coreArea": "Growth Mindset + Coachability",
+    "prompt": "You get feedback to improve your communication. What do you do?",
+    "options": [
+      {
+        "text": "I argue and dismiss the feedback.",
+        "value": 0
+      },
+      {
+        "text": "I thank them, ask clarifying questions, apply the feedback, and track what I learned.",
+        "value": 3
+      },
+      {
+        "text": "I feel discouraged and avoid revisiting it.",
+        "value": 1
+      },
+      {
+        "text": "I apply some feedback if it's easy and move on.",
+        "value": 2
+      }
+    ]
+  },
+  {
+    "order": 179,
+    "coreArea": "Growth Mindset + Coachability",
+    "prompt": "You are corrected publicly in class. What do you do?",
+    "options": [
+      {
+        "text": "I argue and dismiss the feedback.",
+        "value": 0
+      },
+      {
+        "text": "I feel discouraged and avoid revisiting it.",
+        "value": 1
+      },
+      {
+        "text": "I apply some feedback if it's easy and move on.",
+        "value": 2
+      },
+      {
+        "text": "I thank them, ask clarifying questions, apply the feedback, and track what I learned.",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "order": 180,
+    "coreArea": "Growth Mindset + Coachability",
+    "prompt": "You are advised to change your study routine. What do you do?",
+    "options": [
+      {
+        "text": "I feel discouraged and avoid revisiting it.",
+        "value": 1
+      },
+      {
+        "text": "I apply some feedback if it's easy and move on.",
+        "value": 2
+      },
+      {
+        "text": "I argue and dismiss the feedback.",
+        "value": 0
+      },
+      {
+        "text": "I thank them, ask clarifying questions, apply the feedback, and track what I learned.",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "order": 181,
+    "coreArea": "Growth Mindset + Coachability",
+    "prompt": "You get a bug report from a user. What do you do?",
+    "options": [
+      {
+        "text": "I thank them, ask clarifying questions, apply the feedback, and track what I learned.",
+        "value": 3
+      },
+      {
+        "text": "I argue and dismiss the feedback.",
+        "value": 0
+      },
+      {
+        "text": "I apply some feedback if it's easy and move on.",
+        "value": 2
+      },
+      {
+        "text": "I feel discouraged and avoid revisiting it.",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "order": 182,
+    "coreArea": "Growth Mindset + Coachability",
+    "prompt": "Your MVP is missing key features. What do you do?",
+    "options": [
+      {
+        "text": "I feel discouraged and avoid revisiting it.",
+        "value": 1
+      },
+      {
+        "text": "I thank them, ask clarifying questions, apply the feedback, and track what I learned.",
+        "value": 3
+      },
+      {
+        "text": "I argue and dismiss the feedback.",
+        "value": 0
+      },
+      {
+        "text": "I apply some feedback if it's easy and move on.",
+        "value": 2
+      }
+    ]
+  },
+  {
+    "order": 183,
+    "coreArea": "Growth Mindset + Coachability",
+    "prompt": "You receive positive feedback. What do you do with it?",
+    "options": [
+      {
+        "text": "I apply some feedback if it's easy and move on.",
+        "value": 2
+      },
+      {
+        "text": "I feel discouraged and avoid revisiting it.",
+        "value": 1
+      },
+      {
+        "text": "I thank them, ask clarifying questions, apply the feedback, and track what I learned.",
+        "value": 3
+      },
+      {
+        "text": "I argue and dismiss the feedback.",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "order": 184,
+    "coreArea": "Growth Mindset + Coachability",
+    "prompt": "You learn you used a wrong assumption. What do you do?",
+    "options": [
+      {
+        "text": "I argue and dismiss the feedback.",
+        "value": 0
+      },
+      {
+        "text": "I apply some feedback if it's easy and move on.",
+        "value": 2
+      },
+      {
+        "text": "I feel discouraged and avoid revisiting it.",
+        "value": 1
+      },
+      {
+        "text": "I thank them, ask clarifying questions, apply the feedback, and track what I learned.",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "order": 185,
+    "coreArea": "Growth Mindset + Coachability",
+    "prompt": "You're asked to set goals for the term. What do you do?",
+    "options": [
+      {
+        "text": "I thank them, ask clarifying questions, apply the feedback, and track what I learned.",
+        "value": 3
+      },
+      {
+        "text": "I argue and dismiss the feedback.",
+        "value": 0
+      },
+      {
+        "text": "I apply some feedback if it's easy and move on.",
+        "value": 2
+      },
+      {
+        "text": "I feel discouraged and avoid revisiting it.",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "order": 186,
+    "coreArea": "Growth Mindset + Coachability",
+    "prompt": "You struggle with time management. What do you do?",
+    "options": [
+      {
+        "text": "I thank them, ask clarifying questions, apply the feedback, and track what I learned.",
+        "value": 3
+      },
+      {
+        "text": "I apply some feedback if it's easy and move on.",
+        "value": 2
+      },
+      {
+        "text": "I feel discouraged and avoid revisiting it.",
+        "value": 1
+      },
+      {
+        "text": "I argue and dismiss the feedback.",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "order": 187,
+    "coreArea": "Growth Mindset + Coachability",
+    "prompt": "You're given a rubric and you fall short. What do you do?",
+    "options": [
+      {
+        "text": "I apply some feedback if it's easy and move on.",
+        "value": 2
+      },
+      {
+        "text": "I argue and dismiss the feedback.",
+        "value": 0
+      },
+      {
+        "text": "I thank them, ask clarifying questions, apply the feedback, and track what I learned.",
+        "value": 3
+      },
+      {
+        "text": "I feel discouraged and avoid revisiting it.",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "order": 188,
+    "coreArea": "Growth Mindset + Coachability",
+    "prompt": "You get advice that conflicts with your preference. What do you do?",
+    "options": [
+      {
+        "text": "I feel discouraged and avoid revisiting it.",
+        "value": 1
+      },
+      {
+        "text": "I apply some feedback if it's easy and move on.",
+        "value": 2
+      },
+      {
+        "text": "I argue and dismiss the feedback.",
+        "value": 0
+      },
+      {
+        "text": "I thank them, ask clarifying questions, apply the feedback, and track what I learned.",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "order": 189,
+    "coreArea": "Growth Mindset + Coachability",
+    "prompt": "A teacher suggests you pair program more. What do you do?",
+    "options": [
+      {
+        "text": "I argue and dismiss the feedback.",
+        "value": 0
+      },
+      {
+        "text": "I feel discouraged and avoid revisiting it.",
+        "value": 1
+      },
+      {
+        "text": "I apply some feedback if it's easy and move on.",
+        "value": 2
+      },
+      {
+        "text": "I thank them, ask clarifying questions, apply the feedback, and track what I learned.",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "order": 190,
+    "coreArea": "Growth Mindset + Coachability",
+    "prompt": "You notice you get defensive sometimes. What do you do?",
+    "options": [
+      {
+        "text": "I apply some feedback if it's easy and move on.",
+        "value": 2
+      },
+      {
+        "text": "I argue and dismiss the feedback.",
+        "value": 0
+      },
+      {
+        "text": "I feel discouraged and avoid revisiting it.",
+        "value": 1
+      },
+      {
+        "text": "I thank them, ask clarifying questions, apply the feedback, and track what I learned.",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "order": 191,
+    "coreArea": "Growth Mindset + Coachability",
+    "prompt": "You receive 'this needs polish' feedback. What do you do?",
+    "options": [
+      {
+        "text": "I apply some feedback if it's easy and move on.",
+        "value": 2
+      },
+      {
+        "text": "I thank them, ask clarifying questions, apply the feedback, and track what I learned.",
+        "value": 3
+      },
+      {
+        "text": "I feel discouraged and avoid revisiting it.",
+        "value": 1
+      },
+      {
+        "text": "I argue and dismiss the feedback.",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "order": 192,
+    "coreArea": "Growth Mindset + Coachability",
+    "prompt": "You're told your solution works but isn't scalable. What do you do?",
+    "options": [
+      {
+        "text": "I feel discouraged and avoid revisiting it.",
+        "value": 1
+      },
+      {
+        "text": "I apply some feedback if it's easy and move on.",
+        "value": 2
+      },
+      {
+        "text": "I argue and dismiss the feedback.",
+        "value": 0
+      },
+      {
+        "text": "I thank them, ask clarifying questions, apply the feedback, and track what I learned.",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "order": 193,
+    "coreArea": "Growth Mindset + Coachability",
+    "prompt": "You're invited to office hours. What do you do?",
+    "options": [
+      {
+        "text": "I apply some feedback if it's easy and move on.",
+        "value": 2
+      },
+      {
+        "text": "I feel discouraged and avoid revisiting it.",
+        "value": 1
+      },
+      {
+        "text": "I argue and dismiss the feedback.",
+        "value": 0
+      },
+      {
+        "text": "I thank them, ask clarifying questions, apply the feedback, and track what I learned.",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "order": 194,
+    "coreArea": "Growth Mindset + Coachability",
+    "prompt": "You get new information that changes the project direction. What do you do?",
+    "options": [
+      {
+        "text": "I argue and dismiss the feedback.",
+        "value": 0
+      },
+      {
+        "text": "I apply some feedback if it's easy and move on.",
+        "value": 2
+      },
+      {
+        "text": "I thank them, ask clarifying questions, apply the feedback, and track what I learned.",
+        "value": 3
+      },
+      {
+        "text": "I feel discouraged and avoid revisiting it.",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "order": 195,
+    "coreArea": "Growth Mindset + Coachability",
+    "prompt": "You're asked to reflect on a failure. What do you do?",
+    "options": [
+      {
+        "text": "I feel discouraged and avoid revisiting it.",
+        "value": 1
+      },
+      {
+        "text": "I argue and dismiss the feedback.",
+        "value": 0
+      },
+      {
+        "text": "I thank them, ask clarifying questions, apply the feedback, and track what I learned.",
+        "value": 3
+      },
+      {
+        "text": "I apply some feedback if it's easy and move on.",
+        "value": 2
+      }
+    ]
+  },
+  {
+    "order": 196,
+    "coreArea": "Growth Mindset + Coachability",
+    "prompt": "You receive feedback on your portfolio. What do you do?",
+    "options": [
+      {
+        "text": "I argue and dismiss the feedback.",
+        "value": 0
+      },
+      {
+        "text": "I apply some feedback if it's easy and move on.",
+        "value": 2
+      },
+      {
+        "text": "I thank them, ask clarifying questions, apply the feedback, and track what I learned.",
+        "value": 3
+      },
+      {
+        "text": "I feel discouraged and avoid revisiting it.",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "order": 197,
+    "coreArea": "Growth Mindset + Coachability",
+    "prompt": "You're asked to improve your interview answers. What do you do?",
+    "options": [
+      {
+        "text": "I feel discouraged and avoid revisiting it.",
+        "value": 1
+      },
+      {
+        "text": "I apply some feedback if it's easy and move on.",
+        "value": 2
+      },
+      {
+        "text": "I thank them, ask clarifying questions, apply the feedback, and track what I learned.",
+        "value": 3
+      },
+      {
+        "text": "I argue and dismiss the feedback.",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "order": 198,
+    "coreArea": "Growth Mindset + Coachability",
+    "prompt": "You're told you're improving slowly. What do you do?",
+    "options": [
+      {
+        "text": "I argue and dismiss the feedback.",
+        "value": 0
+      },
+      {
+        "text": "I feel discouraged and avoid revisiting it.",
+        "value": 1
+      },
+      {
+        "text": "I thank them, ask clarifying questions, apply the feedback, and track what I learned.",
+        "value": 3
+      },
+      {
+        "text": "I apply some feedback if it's easy and move on.",
+        "value": 2
+      }
+    ]
+  },
+  {
+    "order": 199,
+    "coreArea": "Growth Mindset + Coachability",
+    "prompt": "You're encouraged to take more risks. What do you do?",
+    "options": [
+      {
+        "text": "I thank them, ask clarifying questions, apply the feedback, and track what I learned.",
+        "value": 3
+      },
+      {
+        "text": "I feel discouraged and avoid revisiting it.",
+        "value": 1
+      },
+      {
+        "text": "I argue and dismiss the feedback.",
+        "value": 0
+      },
+      {
+        "text": "I apply some feedback if it's easy and move on.",
+        "value": 2
+      }
+    ]
+  },
+  {
+    "order": 200,
+    "coreArea": "Growth Mindset + Coachability",
+    "prompt": "You're asked to keep a learning log. What do you do?",
+    "options": [
+      {
+        "text": "I thank them, ask clarifying questions, apply the feedback, and track what I learned.",
+        "value": 3
+      },
+      {
+        "text": "I argue and dismiss the feedback.",
+        "value": 0
+      },
+      {
+        "text": "I apply some feedback if it's easy and move on.",
+        "value": 2
+      },
+      {
+        "text": "I feel discouraged and avoid revisiting it.",
+        "value": 1
+      }
+    ]
+  }
+]

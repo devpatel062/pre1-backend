@@ -39,7 +39,15 @@ app.use(async (req, res, next) => {
   next();
 });
 
-app.get('/', (req, res) => res.json({ status: 'Backend is running' }));
+// Vercel's api/ directory strips the /api prefix from paths.
+// This middleware adds it back so Express routes work both locally and on Vercel.
+app.use((req, res, next) => {
+  if (!req.url.startsWith('/api')) {
+    req.url = '/api' + req.url;
+  }
+  next();
+});
+
 app.get('/api/health', (req, res) => res.json({ ok: true }));
 app.use('/api/auth', authRoutes);
 app.use('/api/assessment', assessmentRoutes);

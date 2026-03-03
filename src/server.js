@@ -39,18 +39,19 @@ app.use(async (req, res, next) => {
   next();
 });
 
-// Vercel's api/ directory strips the /api prefix from paths.
-// This middleware adds it back so Express routes work both locally and on Vercel.
-app.use((req, res, next) => {
-  if (!req.url.startsWith('/api')) {
-    req.url = '/api' + req.url;
-  }
-  next();
-});
-
+// Vercel's api/ directory strips the /api prefix, so define routes without it.
+// Locally, the frontend's baseURL (http://localhost:5001/api) adds it,
+// so we mount routes at both paths.
+app.get('/health', (req, res) => res.json({ ok: true }));
 app.get('/api/health', (req, res) => res.json({ ok: true }));
+
+app.use('/auth', authRoutes);
 app.use('/api/auth', authRoutes);
+
+app.use('/assessment', assessmentRoutes);
 app.use('/api/assessment', assessmentRoutes);
+
+app.use('/admin', adminRoutes);
 app.use('/api/admin', adminRoutes);
 
 app.use(notFound);

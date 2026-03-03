@@ -31,6 +31,7 @@ app.use(async (req, res, next) => {
   next();
 });
 
+app.get('/', (req, res) => res.json({ status: 'Backend is running' }));
 app.get('/api/health', (req, res) => res.json({ ok: true }));
 app.use('/api/auth', authRoutes);
 app.use('/api/assessment', assessmentRoutes);

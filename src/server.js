@@ -39,3 +39,5 @@ connectDB()
     console.error('Mongo connection failed', err);
     process.exit(1);
   });
+
+export default app;

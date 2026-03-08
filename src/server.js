@@ -42,6 +42,7 @@ app.use(async (req, res, next) => {
 // Vercel's api/ directory strips the /api prefix, so define routes without it.
 // Locally, the frontend's baseURL (http://localhost:5001/api) adds it,
 // so we mount routes at both paths.
+app.get('/', (req, res) => res.json({ status: 'Outcome School Prework API is running' }));
 app.get('/health', (req, res) => res.json({ ok: true }));
 app.get('/api/health', (req, res) => res.json({ ok: true }));
 

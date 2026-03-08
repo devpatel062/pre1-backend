@@ -64,11 +64,19 @@ export const getAttemptPage = async (req, res) => {
 
   const remainingSeconds = getRemainingSeconds(attempt);
   if (remainingSeconds <= 0) {
+    const questions = await Question.find({ _id: { $in: attempt.questionIds } });
+    const { areaScores, totalScore, passed } = calculateScores({
+      questions,
+      answers: attempt.answers
+    });
+    attempt.areaScores = areaScores;
+    attempt.totalScore = totalScore;
+    attempt.passed = passed;
     attempt.status = 'expired';
     attempt.submittedAt = new Date();
     attempt.durationSeconds = TEST_DURATION_SECONDS;
     await attempt.save();
-    return res.status(410).json({ message: 'Assessment time expired' });
+    return res.status(410).json({ message: 'Assessment time expired', attemptId: attempt._id });
   }
 
   const totalQuestions = attempt.questionIds.length;
@@ -129,11 +137,18 @@ export const submitAssessment = async (req, res) => {
   const now = new Date();
   const elapsed = Math.floor((now.getTime() - new Date(attempt.startedAt).getTime()) / 1000);
   if (elapsed > TEST_DURATION_SECONDS) {
+    const { areaScores, totalScore, passed } = calculateScores({
+      questions,
+      answers: attempt.answers
+    });
+    attempt.areaScores = areaScores;
+    attempt.totalScore = totalScore;
+    attempt.passed = passed;
     attempt.status = 'expired';
     attempt.submittedAt = now;
     attempt.durationSeconds = TEST_DURATION_SECONDS;
     await attempt.save();
-    return res.status(410).json({ message: 'Assessment time expired' });
+    return res.status(410).json({ message: 'Assessment time expired', attemptId: attempt._id });
   }
 
   attempt.durationSeconds = Math.min(elapsed, TEST_DURATION_SECONDS);
@@ -160,7 +175,9 @@ export const getResult = async (req, res) => {
   );
 
   if (!attempt) return res.status(404).json({ message: 'Attempt not found' });
-  if (attempt.status !== 'submitted') return res.status(400).json({ message: 'Result unavailable' });
+  if (!['submitted', 'expired'].includes(attempt.status)) {
+    return res.status(400).json({ message: 'Result unavailable' });
+  }
 
   const hours = Math.floor(attempt.durationSeconds / 3600);
   const minutes = Math.floor((attempt.durationSeconds % 3600) / 60);
